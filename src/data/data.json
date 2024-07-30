@@ -1,0 +1,24 @@
+{
+  "navLinks": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "#about"
+    },
+    {
+      "name": "Services",
+      "url": "#services"
+    },
+    {
+      "name": "Products",
+      "url": "#products"
+    },
+    {
+      "name": "Contact",
+      "url": "#contact"
+    }
+  ]
+}
