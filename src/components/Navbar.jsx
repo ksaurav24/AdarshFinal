@@ -102,7 +102,7 @@ const Navbar = () => {
               duration: 0.5,
               ease: "easeInOut",
             }}
-            className={`lg:hidden w-screen h-screen bg-black/50 absolute top-0 left-0`}
+            className={`lg:hidden w-screen h-screen z-10 bg-black/50 absolute top-0 left-0`}
           >
             <motion.div
               initial={{ x: -350 }}
@@ -112,7 +112,7 @@ const Navbar = () => {
               className="w-3/4 h-full bg-zinc-900 flex flex-col px-3 py-4"
             >
               <div className="flex justify-between">
-                <div className="text-white logo-bold text-3xl">Logo</div>
+                <div className="text-white font-bold text-4xl">Logo</div>
                 <svg
                   onClick={() => {
                     setNavOpen(false);
@@ -146,6 +146,95 @@ const Navbar = () => {
                     </g>
                   </g>
                 </svg>
+              </div>
+              <div className="flex flex-col mt-12 border-b-[0.4px] border-gray-600/60">
+                {data.navLinks.map((navLink, idx) => {
+                  return (
+                    <a
+                      className="text-md px-2 text-zinc-50 border-t-[0.4px] py-3 border-gray-600/60  hover:text-zinc-200 transition-colors duration-300 ease-in-out font-light"
+                      key={idx}
+                      href={navLink.url}
+                    >
+                      {navLink.name}
+                    </a>
+                  );
+                })}
+              </div>
+              <div className=" mt-4 flex flex-col gap-3">
+                <div className="flex gap-2 items-center text-zinc-50">
+                  <div className="bg-red-600 p-2 rounded-full hover:bg-zinc-50 transition-colors duration-300 ease-in-out ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 256 256"
+                      className="w-4 h-4 "
+                    >
+                      <g
+                        fill="#ffffff"
+                        fillRule="nonzero"
+                        stroke="none"
+                        strokeWidth="1"
+                        strokeLinecap="butt"
+                        strokeLinejoin="miter"
+                        strokeMiterlimit="10"
+                        strokeDasharray=""
+                        strokeDashoffset="0"
+                        fontFamily="none"
+                        fontWeight="none"
+                        fontSize="none"
+                        textAnchor="none"
+                        style={{ mixBlendMode: "normal" }}
+                      >
+                        <g transform="scale(10.66667,10.66667)">
+                          <path d="M4,4c-1.105,0 -2,0.895 -2,2v1.73242l1,0.62695l1,0.62695l8,5.01367l8,-4.98047l1,-0.62305l1,-0.62109v-1.77539c0,-1.105 -0.895,-2 -2,-2zM4,6h16v0.76953l-8,4.97852l-8,-5.01367zM2,10.0918v7.9082c0,1.105 0.895,2 2,2h16c1.105,0 2,-0.895 2,-2v-7.86914l-2,1.24414v6.625h-16v-6.6543z"></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div className="text-zinc-50 text-sm font-light">
+                    supportmail@domain.com
+                  </div>
+                </div>
+                <div className="flex gap-2 items-center text-zinc-50">
+                  <div className="bg-red-600 p-2 rounded-full hover:bg-zinc-50 transition-colors duration-300 ease-in-out ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 256 256"
+                      className="w-4 h-4 rotate-180"
+                    >
+                      <g
+                        fill="#ffffff"
+                        fillRule="nonzero"
+                        stroke="none"
+                        strokeWidth="1"
+                        strokeLinecap="butt"
+                        strokeLinejoin="miter"
+                        strokeMiterlimit="10"
+                        strokeDasharray=""
+                        strokeDashoffset="0"
+                        fontFamily="none"
+                        fontWeight="none"
+                        fontSize="none"
+                        textAnchor="none"
+                        style={{ mixBlendMode: "normal" }}
+                      >
+                        <g transform="scale(8.53333,8.53333)">
+                          <path d="M12.111,21.225c0.238,-0.406 0.233,-0.905 -0.007,-1.309l-1.219,-2.046c-0.273,-0.458 -0.241,-1.03 0.087,-1.45c0.567,-0.726 1.521,-1.895 2.538,-2.912c1.017,-1.017 2.186,-1.971 2.912,-2.538c0.42,-0.328 0.992,-0.36 1.45,-0.087l2.046,1.219c0.404,0.241 0.907,0.243 1.313,0.005l5.129,-3.003c0.496,-0.291 0.74,-0.869 0.603,-1.428c-0.133,-0.543 -0.455,-1.248 -1.194,-1.987c-2.314,-2.314 -6.217,-3.543 -14.919,5.159c-8.702,8.702 -7.474,12.606 -5.16,14.92c0.741,0.741 1.447,1.062 1.991,1.195c0.558,0.135 1.132,-0.105 1.422,-0.6c0.723,-1.236 2.284,-3.902 3.008,-5.138z"></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div className="text-zinc-50 text-sm font-light">
+                    +91 xxxxx xxxxx
+                  </div>
+                </div>
               </div>
             </motion.div>
           </motion.div>
