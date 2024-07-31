@@ -18,7 +18,7 @@ const Hero = () => {
           className="w-screen absolute bg-cover top-0  overflow-hidden h-screen -z-10"
         />
       </motion.div>
-      <div className="w-screen bg-red-700  absolute -z-10  mix-blend-color-burn h-[86vh]"></div>
+      <div className="w-screen bg-red-700  absolute -z-10  mix-blend-color-burn h-[87vh]"></div>
       <div className="w-screen h-[86vh] flex flex-col justify-center items-center overflow-hidden">
         <motion.h1
           initial={{ y: -220, opacity: 0 }}
