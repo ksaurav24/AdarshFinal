@@ -43,7 +43,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.8, ease: "easeInOut" }}
-            className=" border-none bg-black h-[50px] px-8 my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#fff] before:to-[#fff] before:transition-all before:duration-500 hover:text-zinc-950 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]"
+            className=" border-none bg-zinc-50  h-[50px] px-8 my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-100 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-zinc-900 before:to-zinc-950 before:transition-all before:duration-500 hover:text-zinc-50 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-zinc-950"
           >
             Connect With Us
           </motion.button>
