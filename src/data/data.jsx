@@ -50,7 +50,6 @@ const services = [
     title: "Air conditioner",
     description:
       "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    image: airConditioner,
   },
   {
     title: "Washing Machine",
