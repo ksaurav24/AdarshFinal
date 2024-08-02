@@ -90,7 +90,6 @@ const services = [
   },
 ];
 
-export { navLinks, about, services };
 const services = [
   {
     title: "Air conditioner",
