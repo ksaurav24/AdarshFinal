@@ -42,11 +42,7 @@ const Services = () => {
                   className="lg:w-[20vw] w-[80vw] mx-auto h-[320px] cursor-pointer  mr-8 my-4 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
                 >
                   <div className="w-full h-[180px] before:w-full before:h-full overflow-hidden before before:absolute before:mix-blend-color-burn before:bg-red-600 serviceChild relative">
-                    {/* <Image
-                      src={service.image}
-                      placeholder="blur"
-                      className="serviceImg"
-                    /> */}
+                    <Image src={service.image} className="serviceImg" />
                   </div>
                   <div className="p-4">
                     <h1 className="text-lg font-semibold">{service.title}</h1>
