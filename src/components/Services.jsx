@@ -12,7 +12,7 @@ const saira = Saira({
 });
 const Services = () => {
   return (
-    <div className=" ">
+    <div id="services" className=" ">
       <Image src={servicesBg1} className=" absolute left-0 -z-0" />
       <Image src={servicesBg2} className=" absolute right-0 -z-0" />
       <div className="w-screen  z-10">

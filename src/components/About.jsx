@@ -11,7 +11,7 @@ const saira = Saira({
 });
 const About = () => {
   return (
-    <div className="w-screen px-12  overflow-hidden  relative bg-zinc-900">
+    <div id="about" className="w-screen px-12  overflow-hidden  relative bg-zinc-900">
       <motion.div
         initial={{ scale: 1 }}
         animate={{ scale: 1.05 }}
