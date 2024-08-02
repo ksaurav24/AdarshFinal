@@ -3,28 +3,38 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import HeroBgImage from "../../public/hero-bg.jpg";
 import Image from "next/image";
+import { Saira } from "next/font/google";
+const saira = Saira({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 const Hero = () => {
   return (
-    <div className="overflow-x-hidden w-screen">
+    <div className="overflow-hidden h-[86vh] w-screen">
       <motion.div
-        className="w-screen absolute bg-cover top-0  overflow-hidden h-screen  -z-10"
+        className="w-screen absolute bg-cover top-0 left-0 overflow-hidden h-screen  -z-10"
         initial={{ scale: 1 }}
         animate={{ scale: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
+        transition={{
+          duration: 4,
+          repeatType: "reverse",
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
       >
         <Image
           alt="hero-bg"
           src={HeroBgImage}
-          className="w-screen absolute bg-cover top-0  overflow-hidden h-screen -z-10"
+          className="w-screen heroBG absolute bg-cover top-0  overflow-hidden h-screen -z-10"
         />
       </motion.div>
-      <div className="w-screen bg-red-700  absolute -z-10  mix-blend-color-burn h-[87vh]"></div>
+      <div className="w-screen bg-red-700  absolute -z-10  mix-blend-color-burn h-[86vh]"></div>
       <div className="w-screen h-[86vh] flex flex-col justify-center items-center overflow-hidden">
         <motion.h1
           initial={{ y: -220, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="lg:text-6xl text-4xl text-zinc-50 lg:w-[60%] w-[94%] text-center mb-8 font-bold"
+          className={`lg:text-6xl text-4xl text-zinc-50 lg:w-[54%] w-[90%] text-center mb-8 font-bold ${saira.className}`}
         >
           Have Broken Gadget ? We Can Fix Anything
         </motion.h1>

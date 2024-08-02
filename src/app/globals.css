@@ -5,3 +5,27 @@
 body::-webkit-scrollbar {
   display: none;
 }
+
+.aboutChild {
+  transition: all 0.6s ease-in-out;
+}
+.aboutParent:hover > .aboutChild {
+  transform: scale(0.9);
+  background-color: white;
+  transition: all 0.6s ease-in-out;
+}
+
+.heroBG {
+  animation: zoomInfinte 6s infinite ease-in-out;
+}
+@keyframes zoomInfinte {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

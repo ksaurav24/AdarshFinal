@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import data from "../data/data.json";
+import { navLinks } from "../data/data.jsx";
 import { AnimatePresence, motion } from "framer-motion";
 import { enablePageScroll, disablePageScroll } from "scroll-lock";
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
           <a href="">Logo</a>
         </div>
         <div className="lg:flex hidden space-x-20">
-          {data.navLinks.map((navLink, idx) => {
+          {navLinks.map((navLink, idx) => {
             return (
               <a
                 className="text-lg text-white hover:text-zinc-200 transition-colors duration-300 ease-in-out"
