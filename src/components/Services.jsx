@@ -12,8 +12,8 @@ const saira = Saira({
 const Services = () => {
   return (
     <div id="services" className=" ">
-      <Image src={servicesBg1} className=" absolute left-0 -z-0" />
-      <Image src={servicesBg2} className=" absolute right-0 -z-0" />
+      <Image src={servicesBg1} className="serviceBg absolute left-0 -z-0" />
+      <Image src={servicesBg2} className="serviceBg absolute right-0 -z-0" />
       <div className="w-screen  z-10">
         <div className="flex flex-col gap-2 justify-center items-center text-zinc-950">
           <div className="flex items-center justify-center mt-4">
