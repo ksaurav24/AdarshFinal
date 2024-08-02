@@ -148,7 +148,7 @@ const Navbar = () => {
                 </svg>
               </div>
               <div className="flex flex-col mt-12 border-b-[0.4px] border-gray-600/60">
-                {data.navLinks.map((navLink, idx) => {
+                {navLinks.map((navLink, idx) => {
                   return (
                     <a
                       className="text-md px-2 text-zinc-50 border-t-[0.4px] py-3 border-gray-600/60  hover:text-zinc-200 transition-colors duration-300 ease-in-out font-light"
