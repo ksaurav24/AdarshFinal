@@ -12,8 +12,16 @@ const saira = Saira({
 const Services = () => {
   return (
     <div id="services" className=" ">
-      <Image src={servicesBg1} className="serviceBg absolute left-0 -z-0" />
-      <Image src={servicesBg2} className="serviceBg absolute right-0 -z-0" />
+      <Image
+        src={servicesBg1}
+        alt="ServicesBackgroundImage-1"
+        className="serviceBg absolute left-0 -z-0"
+      />
+      <Image
+        src={servicesBg2}
+        alt="ServicesBackgroundImage-2"
+        className="serviceBg absolute right-0 -z-0"
+      />
       <div className="w-screen  z-10">
         <div className="flex flex-col gap-2 justify-center items-center text-zinc-950">
           <div className="flex items-center justify-center mt-4">
@@ -42,7 +50,11 @@ const Services = () => {
                   className="lg:w-[20vw] w-[80vw] mx-auto h-[320px] cursor-pointer  mr-8 my-4 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
                 >
                   <div className="w-full h-[180px] before:w-full before:h-full overflow-hidden before before:absolute before:mix-blend-color-burn before:bg-red-600 serviceChild relative">
-                    <Image src={service.image} className="serviceImg" />
+                    <Image
+                      src={service.image}
+                      alt={`${service.title}_Image`}
+                      className="serviceImg"
+                    />
                   </div>
                   <div className="p-4">
                     <h1 className="text-lg font-semibold">{service.title}</h1>

@@ -11,7 +11,10 @@ const saira = Saira({
 });
 const About = () => {
   return (
-    <div id="about" className="w-screen px-12  overflow-hidden  relative bg-zinc-900">
+    <div
+      id="about"
+      className="w-screen px-12  overflow-hidden  relative bg-zinc-900"
+    >
       <motion.div
         initial={{ scale: 1 }}
         animate={{ scale: 1.05 }}
@@ -23,7 +26,7 @@ const About = () => {
         }}
         className="w-full h-full absolute  overflow-hidden "
       >
-        <Image src={aboutBg} />
+        <Image src={aboutBg} alt="AboutSectionBg" />
       </motion.div>
 
       <div className="px-12 pt-10 pb-16 w-full h-full flex flex-col items-center justify-center text-zinc-50">
@@ -56,7 +59,11 @@ const About = () => {
                   <p className="font-normal text-sm mt-2">{item.description}</p>
                 </div>
                 <div className="w-[60px] aboutChild h-[60px]  bg-red-500 rounded-full flex items-center justify-center">
-                  <Image className="aboutIcon  w-8 h-8" src={item.icon} />
+                  <Image
+                    className="aboutIcon  w-8 h-8"
+                    alt={item.title}
+                    src={item.icon}
+                  />
                 </div>
               </div>
             );

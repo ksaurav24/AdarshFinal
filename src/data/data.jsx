@@ -2,19 +2,19 @@ import qualityIcon from "../../public/qualityIcon.svg";
 import teamIcon from "../../public/teamIcon.svg";
 import supportIcon from "../../public/supportIcon.svg";
 
-import ServiceAc from "../../public/ServiceAC.webp";
-import ServiceFridge from "../../public/ServiceFridge.webp";
-import ServiceMicrowave from "../../public/ServiceMicrowave.webp";
-import ServiceRo from "../../public/ServiceRo.webp";
-import ServiceWm from "../../public/ServiceWm.webp";
-import ServiceWd from "../../public/ServiceWd.webp";
+import ServiceAc from "../../public/Services/ServiceAc.webp";
+import ServiceWm from "../../public/Services/ServiceWm.webp";
+import ServiceFridge from "../../public/Services/ServiceFridge.webp";
+import ServiceMicrowave from "../../public/Services/ServiceMicrowave.webp";
+import ServiceRo from "../../public/Services/ServiceRo.webp";
+import ServiceWd from "../../public/Services/ServiceWd.webp";
 
-import Godrej_Logo from "../../public/Godrej_Logo.png";
-import LG_Logo from "../../public/LG_Logo.png";
-import Samsung_Logo from "../../public/Samsung_Logo.png";
-import Whirlpool_Logo from "../../public/Whirlpool_Logo.png";
-import Voltas_Logo from "../../public/Voltas_Logo.png";
-import IFB_Logo from "../../public/IFB_Logo.png";
+import Godrej_Logo from "../../public/Companies/Godrej-Logo.webp";
+import LG_Logo from "../../public/Companies/LG-Logo.webp";
+import Samsung_Logo from "../../public/Companies/Samsung-Logo.webp";
+import Whirlpool_Logo from "../../public/Companies/Whirlpool-Logo.webp";
+import Voltas_Logo from "../../public/Companies/Voltas-Logo.webp";
+import IFB_Logo from "../../public/Companies/IFB-Logo.webp";
 
 const navLinks = [
   {
