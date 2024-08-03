@@ -2,12 +2,12 @@ import qualityIcon from "../../public/qualityIcon.svg";
 import teamIcon from "../../public/teamIcon.svg";
 import supportIcon from "../../public/supportIcon.svg";
 
-import ServiceAc from "../../public/Services/ServiceAc.webp";
-import ServiceWm from "../../public/Services/ServiceWm.webp";
-import ServiceFridge from "../../public/Services/ServiceFridge.webp";
-import ServiceMicrowave from "../../public/Services/ServiceMicrowave.webp";
-import ServiceRo from "../../public/Services/ServiceRo.webp";
-import ServiceWd from "../../public/Services/ServiceWd.webp";
+import ServiceAc from "../../public/ServicesImages/ServiceAC.webp";
+import ServiceWm from "../../public/ServicesImages/ServiceWM.webp";
+import ServiceFridge from "../../public/ServicesImages/ServiceFridge.webp";
+import ServiceMicrowave from "../../public/ServicesImages/ServiceMicrowave.webp";
+import ServiceRo from "../../public/ServicesImages/ServiceRO.webp";
+import ServiceWd from "../../public/ServicesImages/ServiceWD.webp";
 
 import Godrej_Logo from "../../public/Companies/Godrej-Logo.webp";
 import LG_Logo from "../../public/Companies/LG-Logo.webp";
