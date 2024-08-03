@@ -3,11 +3,11 @@ import teamIcon from "../../public/teamIcon.svg";
 import supportIcon from "../../public/supportIcon.svg";
 
 import ServiceAc from "../../public/ServicesImages/ServiceAC.webp";
-import ServiceWm from "../../public/ServicesImages/ServiceWM.webp";
+import ServiceWm from "../../public/ServicesImages/ServiceWm.webp";
 import ServiceFridge from "../../public/ServicesImages/ServiceFridge.webp";
 import ServiceMicrowave from "../../public/ServicesImages/ServiceMicrowave.webp";
-import ServiceRo from "../../public/ServicesImages/ServiceRO.webp";
-import ServiceWd from "../../public/ServicesImages/ServiceWD.webp";
+import ServiceRo from "../../public/ServicesImages/ServiceRo.webp";
+import ServiceWd from "../../public/ServicesImages/ServiceWd.webp";
 
 import Godrej_Logo from "../../public/Companies/Godrej-Logo.webp";
 import LG_Logo from "../../public/Companies/LG-Logo.webp";
