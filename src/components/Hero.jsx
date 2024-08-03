@@ -23,6 +23,7 @@ const Hero = () => {
         }}
       >
         <Image
+          priority={true}
           alt="hero-bg"
           src={HeroBgImage}
           className="w-screen heroBG absolute bg-cover top-0  overflow-hidden h-screen -z-10"
