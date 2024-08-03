@@ -37,6 +37,24 @@ body::-webkit-scrollbar {
 .serviceBg {
   animation: zoomInfinte 6s infinite ease-in-out;
 }
+
+.contactForm input {
+  height: 50px;
+  color: #f2f2f2;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: transparent;
+}
+.contactForm textarea {
+  color: #f2f2f2;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: transparent;
+}
 @keyframes zoomInfinte {
   0% {
     transform: scale(1);
