@@ -9,7 +9,7 @@ const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-const page = () => {
+const Page = () => {
   return (
     <div id="services" className="bg-white py-8 ">
       <Image
@@ -70,4 +70,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
