@@ -136,8 +136,8 @@ const Page = () => {
               className={`${
                 isLoading
                   ? "disabledBtn bg-gray-600 hover:bg-gray-600 cursor-not-allowed lg:w-[8vw] w-[70vw]"
-                  : "lg:w-[14vw] w-[90vw]"
-              } bg-red-600  overflow-hidden flex justify-center items-center  disabled:bg-gray-600 disabled:hover:bg-gray-600   text-zinc-50   h-12 rounded-md cursor-pointer hover:bg-red-800 transition-all duration-500 ease-in-out`}
+                  : "lg:w-[14vw] w-[90vw] bg-red-600 hover:bg-red-800"
+              }   overflow-hidden flex justify-center items-center  disabled:bg-gray-600 disabled:hover:bg-gray-600   text-zinc-50   h-12 rounded-md cursor-pointer  transition-all duration-500 ease-in-out`}
             >
               {isLoading ? (
                 <AnimatePresence>
