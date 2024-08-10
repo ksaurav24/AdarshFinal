@@ -29,7 +29,6 @@ import product10 from "../../public/products/product10.jpg";
 import product11 from "../../public/products/product11.jpg";
 import product12 from "../../public/products/product12.jpg";
 import product13 from "../../public/products/product13.jpg";
-
 const navLinks = [
   {
     name: "Home",
@@ -37,19 +36,19 @@ const navLinks = [
   },
   {
     name: "About",
-    url: "#about",
+    url: "/about",
   },
   {
     name: "Services",
-    url: "#services",
+    url: "/services",
   },
   {
     name: "Products",
-    url: "#products",
+    url: "/products",
   },
   {
     name: "Contact",
-    url: "#contact",
+    url: "/contact",
   },
 ];
 const about = [

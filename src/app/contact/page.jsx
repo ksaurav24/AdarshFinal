@@ -1,21 +1,16 @@
 "use client";
 import { useState, useEffect } from "react";
 import { set, useForm } from "react-hook-form";
-
 import { Bounce, ToastContainer, toast } from "react-toastify";
 import useWeb3Forms from "@web3forms/react";
 import React from "react";
 import { Saira } from "next/font/google";
-import Loading from "./Loading";
+import { AnimatePresence, motion } from "framer-motion";
 const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-const Contact = () => {
-  useEffect(() => {
-    const submitBtn = document.getElementById("submitBtn");
-    console.log(submitBtn);
-  }, [isLoading]);
+const page = () => {
   const { register, reset, handleSubmit } = useForm();
   const [isLoading, setLoading] = useState(false);
 
@@ -70,7 +65,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="w-screen  flex flex-col py-8 justify-center items-center bg-zinc-900"
+        className="w-screen flex flex-col py-8 justify-center items-center bg-zinc-900"
       >
         <div className="flex mb-4 items-center justify-center">
           <p className="text-7xl text-red-500 font-thin">-</p>
@@ -79,7 +74,9 @@ const Contact = () => {
           </h1>
           <p className="text-7xl text-red-500 lg:mx-3 ml-3 font-thin">-</p>
         </div>
-        <h1 className="lg:text-4xl font-semibold text-2xl text-zinc-50">
+        <h1
+          className={`${saira.className} lg:text-4xl font-semibold text-2xl text-zinc-50`}
+        >
           Get In Touch With Us
         </h1>
         <p className="lg:w-[50vw] mt-4 w-[90vw]  text-center lg:text-lg text-sm font-light text-zinc-50">
@@ -92,19 +89,19 @@ const Contact = () => {
           className="contactForm  font-medium"
         >
           <div className="flex lg:w-[70vw] lg:mt-8 mt-2 flex-col gap-4 items-center justify-center">
-            <div className="flex flex-col lg:flex-row lg:gap-16 gap-2">
+            <div className="flex flex-col px-12 lg:flex-row lg:gap-10 gap-2">
               <input
                 type="text"
                 id="name"
                 placeholder="Enter Your Name"
-                className="lg:w-[382px] w-[90vw] font-light"
+                className="lg:w-[26vw] w-[90vw] font-light"
                 {...register("name", { required: true })}
                 required
               />
               <input
                 type="email"
                 id="email"
-                className="lg:w-[382px] w-[90vw] font-light"
+                className="lg:w-[26vw] w-[90vw] font-light"
                 placeholder="Enter Your Email"
                 required
                 {...register("email", { required: true })}
@@ -113,7 +110,7 @@ const Contact = () => {
                 type="text"
                 id="subject"
                 placeholder="Enter Your Subject"
-                className="lg:w-[382px] w-[90vw] font-light"
+                className="lg:w-[26vw] w-[90vw] font-light"
                 required
                 {...register("subject", { required: true })}
               />
@@ -131,32 +128,40 @@ const Contact = () => {
           </div>
           <div className="flex mt-4 justify-center items-center">
             <button
-              id="submitBtn"
               type="submit"
+              id="submitBtn"
               onClick={() => {
                 setLoading(true);
               }}
-              className={`disabled:bg-gray-500 bg-red-600 text-zinc-50 w-[90vw] lg:w-[14vw] h-12 rounded-md cursor-pointer hover:bg-red-800 transition-all duration-500 ease-in-out`}
+              className={`${
+                isLoading
+                  ? "disabledBtn bg-gray-600 hover:bg-gray-600 cursor-not-allowed lg:w-[8vw] w-[70vw]"
+                  : "lg:w-[14vw] w-[90vw]"
+              } bg-red-600  overflow-hidden flex justify-center items-center  disabled:bg-gray-600 disabled:hover:bg-gray-600   text-zinc-50   h-12 rounded-md cursor-pointer hover:bg-red-800 transition-all duration-500 ease-in-out`}
             >
-              {isLoading ? <Loading /> : "Send Message "}
+              {isLoading ? (
+                <AnimatePresence>
+                  <motion.div
+                    initial={{ opacity: 0, y: 40 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    exit={{ opacity: 0, y: -50 }}
+                    className=""
+                  >
+                    <div className="flex-col w-5 gap-4 flex items-center justify-center">
+                      <div className="w-9 h-9 border-[4px] text-blue-400 text-4xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"></div>
+                    </div>
+                  </motion.div>
+                </AnimatePresence>
+              ) : (
+                "Send Message "
+              )}
             </button>
           </div>
         </form>
       </div>
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-      />
     </>
   );
 };
 
-export default Contact;
+export default page;

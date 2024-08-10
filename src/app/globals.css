@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "~react-toastify/dist/ReactToastify.min.css";
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -54,6 +56,8 @@ body::-webkit-scrollbar {
   padding: 10px;
   margin: 10px 0;
   background-color: transparent;
+}
+.disabledBtn {
 }
 @keyframes zoomInfinte {
   0% {

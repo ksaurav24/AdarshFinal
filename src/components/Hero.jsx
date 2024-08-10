@@ -49,7 +49,7 @@ const Hero = () => {
           exercitationem quas deleniti consectetur repellat, eaque impedit
           libero quae amet voluptate repre.
         </motion.p>
-        <a href="#contact">
+        <a href="/contact">
           <motion.button
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

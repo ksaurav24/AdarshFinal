@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import { navLinks } from "../data/data.jsx";
 import { AnimatePresence, motion } from "framer-motion";
 import { enablePageScroll, disablePageScroll } from "scroll-lock";
+import Image from "next/image";
+import heroBg from "../../public/hero-bg.jpg";
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   useEffect(() => {
@@ -13,11 +15,17 @@ const Navbar = () => {
     }
   }, [navOpen]);
   return (
-    <>
+    <div className="overflow-hidden ">
+      <Image
+        alt="hero-bg"
+        priority={true}
+        src={heroBg}
+        className="absolute  top-0 -z-10 w-screen h-screen"
+      />
       <div className="w-screen h-24 absolute bg-red-600 mix-blend-color-burn -z-[5]"></div>
       <div className="w-screen h-24  text-zinc-50 flex justify-between px-6 items-center">
         <div className="text-4xl text-zinc-50 font-bold">
-          <a href="">Logo</a>
+          <a href="/">Logo</a>
         </div>
         <div className="lg:flex hidden space-x-20">
           {navLinks.map((navLink, idx) => {
@@ -102,7 +110,7 @@ const Navbar = () => {
               duration: 0.5,
               ease: "easeInOut",
             }}
-            className={`lg:hidden w-screen h-screen z-10 bg-black/50 absolute top-0 left-0`}
+            className={`lg:hidden w-screen h-screen z-20  bg-black/50 absolute top-0 left-0`}
           >
             <motion.div
               initial={{ x: -350 }}
@@ -240,7 +248,7 @@ const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </div>
   );
 };
 
