@@ -6,7 +6,7 @@ const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-const Products = () => {
+const Page = () => {
   return (
     <div id="products" className="w-screen py-12 bg-white flex flex-col ">
       <h1
@@ -38,4 +38,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Page;

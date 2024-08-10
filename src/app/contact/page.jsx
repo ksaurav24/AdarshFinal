@@ -10,7 +10,7 @@ const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-const page = () => {
+const Page = () => {
   const { register, reset, handleSubmit } = useForm();
   const [isLoading, setLoading] = useState(false);
 
@@ -164,4 +164,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
