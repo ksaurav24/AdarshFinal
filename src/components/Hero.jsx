@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className={`lg:text-6xl text-4xl text-zinc-50 lg:w-[54%] w-[90%] text-center mb-8 font-bold ${saira.className}`}
         >
-          Main Heading ! Eye catching Line
+          Reliable Appliance Repair Services You Can Trust
         </motion.h1>
         <motion.p
           initial={{ y: -220, opacity: 0 }}
@@ -45,9 +45,10 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeInOut" }}
           className="lg:text-sm text-xs text-zinc-50 lg:w-[40%] w-[80%] text-center mb-8 font-regular"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-          exercitationem quas deleniti consectetur repellat, eaque impedit
-          libero quae amet voluptate repre.
+          we specialize in providing high-quality repair services for all major
+          household appliances. Whether it's your air conditioner, refrigerator,
+          or washing machine, our professional team is here to help you get back
+          to comfort.
         </motion.p>
         <a href="/contact">
           <motion.button

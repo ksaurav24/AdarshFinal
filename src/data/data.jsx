@@ -56,19 +56,19 @@ const about = [
   {
     title: "Quality Services",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "We provide reliable and efficient repair services to keep your appliances running smoothly.",
     icon: qualityIcon,
   },
   {
     title: "Professional Team",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Our experienced technicians are dedicated to delivering top-notch service every time.",
     icon: teamIcon,
   },
   {
     title: "24 Hour Support",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "We’re here for you around the clock, offering support whenever you need it.",
     icon: supportIcon,
   },
 ];
