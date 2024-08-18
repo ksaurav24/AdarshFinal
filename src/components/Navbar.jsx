@@ -24,8 +24,10 @@ const Navbar = () => {
       />
       <div className="w-screen h-24 absolute bg-red-600 mix-blend-color-burn -z-[5]"></div>
       <div className="w-screen h-24  text-zinc-50 flex justify-between px-6 items-center">
-        <div className="text-4xl text-zinc-50 font-bold">
-          <a href="/">Logo</a>
+        <div className="text-xl text-zinc-50 font-bold">
+          <a href="/">
+            Adarsh Refrigeration <br />& Air Conditioners
+          </a>
         </div>
         <div className="lg:flex hidden space-x-20">
           {navLinks.map((navLink, idx) => {
@@ -120,7 +122,9 @@ const Navbar = () => {
               className="w-3/4 h-full bg-zinc-900 flex flex-col px-3 py-4"
             >
               <div className="flex justify-between">
-                <div className="text-white font-bold text-4xl">Logo</div>
+                <div className="text-white font-bold text-xl">
+                  Adarsh Refrigeration <br /> & Air Conditioners
+                </div>
                 <svg
                   onClick={() => {
                     setNavOpen(false);
@@ -169,7 +173,10 @@ const Navbar = () => {
                 })}
               </div>
               <div className=" mt-4 flex flex-col gap-3">
-                <div className="flex gap-2 items-center text-zinc-50">
+                <a
+                  href="mailto:adarshgurgaon.in@gmail.com"
+                  className="flex gap-2 items-center text-zinc-50"
+                >
                   <div className="bg-red-600 p-2 rounded-full hover:bg-zinc-50 transition-colors duration-300 ease-in-out ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -202,11 +209,17 @@ const Navbar = () => {
                       </g>
                     </svg>
                   </div>
-                  <div className="text-zinc-50 text-sm font-light">
-                    supportmail@domain.com
-                  </div>
-                </div>
-                <div className="flex gap-2 items-center text-zinc-50">
+                  <a
+                    href="mailto:adarshgurgaon.in@gmail.com"
+                    className="text-zinc-50 text-sm font-light"
+                  >
+                    adarshgurgaon.in@gmail.com
+                  </a>
+                </a>
+                <a
+                  href="tel:+919811391053"
+                  className="flex gap-2 items-center text-zinc-50"
+                >
                   <div className="bg-red-600 p-2 rounded-full hover:bg-zinc-50 transition-colors duration-300 ease-in-out ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -240,9 +253,9 @@ const Navbar = () => {
                     </svg>
                   </div>
                   <div className="text-zinc-50 text-sm font-light">
-                    +91 xxxxx xxxxx
+                    +91 98113 91053
                   </div>
-                </div>
+                </a>
               </div>
             </motion.div>
           </motion.div>

@@ -5,7 +5,9 @@ const Footer = () => {
     <>
       <div className="w-screen justify-between lg:gap-0 gap-6 flex text-zinc-50 lg:flex-row bg-zinc-950 flex-col lg:py-8 py-8 lg:px-12 px-8">
         <div className="lg:w-[30vw] w-[85vw]">
-          <h1 className="text-4xl font-semibold  mb-4">LOGO</h1>
+          <h1 className="text-2xl font-semibold  mb-4">
+            Adarsh Refrigeration <br /> & Air Conditioners
+          </h1>
           <p className="text-zinc-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             blanditiis maxime cumque?
@@ -39,14 +41,26 @@ const Footer = () => {
           <h4 className="text-2xl font-semibold text-zinc-50 mb-4 ">
             Contact Us
           </h4>
-          <p className="text-md font-light mb-1 text-zinc-200">
-            +91 1234567890
-          </p>
-          <p className="text-md font-light mb-1 text-zinc-200">
-            supportemail@domain.com{" "}
-          </p>
+          <a
+            href="tel:+919811391053"
+            className="text-md font-light mb-1 text-zinc-200"
+          >
+            +91 98113 91053
+          </a>
+          <a
+            href="tel:+917982811091"
+            className="text-md font-light mb-1 text-zinc-200"
+          >
+            +91 79828 11091
+          </a>
+          <a
+            href="mailto:adarshgurgaon.in@gmail.com"
+            className="text-md font-light mb-1 text-zinc-200"
+          >
+            adarshgurgaon.in@gmail.com
+          </a>
           <p className="lg:w-[16vw]">
-            xyz road, Pune, Maharashtra, India 410507
+            95/17 Sadar Bazar Sector 12 Gurgaon Haryana 122001
           </p>
         </div>
       </div>

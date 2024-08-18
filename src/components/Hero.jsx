@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className={`lg:text-6xl text-4xl text-zinc-50 lg:w-[54%] w-[90%] text-center mb-8 font-bold ${saira.className}`}
         >
-          Have Broken Gadget ? We Can Fix Anything
+          Main Heading ! Eye catching Line
         </motion.h1>
         <motion.p
           initial={{ y: -220, opacity: 0 }}
