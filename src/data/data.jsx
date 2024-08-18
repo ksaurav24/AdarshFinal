@@ -16,19 +16,20 @@ import Whirlpool_Logo from "../../public/Companies/Whirlpool-Logo.webp";
 import Voltas_Logo from "../../public/Companies/Voltas-Logo.webp";
 import IFB_Logo from "../../public/Companies/IFB-Logo.webp";
 
-import product1 from "../../public/products/product1.jpg";
-import product2 from "../../public/products/product2.jpg";
-import product3 from "../../public/products/product3.jpg";
-import product4 from "../../public/products/product4.jpg";
-import product5 from "../../public/products/product5.jpg";
-import product6 from "../../public/products/product6.jpg";
-import product7 from "../../public/products/product7.jpg";
-import product8 from "../../public/products/product8.jpg";
-import product9 from "../../public/products/product9.jpg";
-import product10 from "../../public/products/product10.jpg";
-import product11 from "../../public/products/product11.jpg";
-import product12 from "../../public/products/product12.jpg";
-import product13 from "../../public/products/product13.jpg";
+import product1 from "../../public/productsImages/product1.jpg";
+import product2 from "../../public/productsImages/product2.jpg";
+import product3 from "../../public/productsImages/product3.jpg";
+import product4 from "../../public/productsImages/product4.jpg";
+import product5 from "../../public/productsImages/product5.jpg";
+import product6 from "../../public/productsImages/product6.jpg";
+import product7 from "../../public/productsImages/product7.jpg";
+import product8 from "../../public/productsImages/product8.jpg";
+import product9 from "../../public/productsImages/product9.jpg";
+import product10 from "../../public/productsImages/product10.jpg";
+import product11 from "../../public/productsImages/product11.jpg";
+import product12 from "../../public/productsImages/product12.jpg";
+import product13 from "../../public/productsImages/product13.jpg";
+
 const navLinks = [
   {
     name: "Home",

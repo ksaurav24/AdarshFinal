@@ -1,14 +1,10 @@
 "use client";
 import React from "react";
-import { Saira } from "next/font/google";
 import servicesBg1 from "../../../public/servicesBg1.png";
 import servicesBg2 from "../../../public/servicesBg2.png";
 import Image from "next/image";
 import { services } from "../../data/data";
-const saira = Saira({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+
 const Page = () => {
   return (
     <div id="services" className="bg-white py-8 ">
