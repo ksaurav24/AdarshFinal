@@ -14,25 +14,49 @@ const Products = () => {
       >
         Some of our trusted products for your appliances
       </h1>
-      <div className="grid lg:grid-cols-4 grid-cols-1 relative px-12 gap-6 mt-4">
-        {products.slice(0, 4).map((product, idx) => {
-          return (
-            <a key={idx} href={product.amazon_link}>
-              <div className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl ">
-                <div className="w-full p-6 h-[200px] overflow-hidden relative">
-                  <Image
-                    src={product.image}
-                    alt={`${product.title}_Image`}
-                    className="h-[90%] object-contain"
-                  />
-                </div>
-                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[155px] ">
-                  <h1 className="text-md font-regular ">{product.title}</h1>
-                </div>
-              </div>
-            </a>
-          );
-        })}
+      <div className="grid lg:grid-cols-3 grid-cols-1 relative px-12 gap-6 mt-4">
+        <a>
+          <div className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl ">
+            <div className="w-full p-6 h-[200px] overflow-hidden relative">
+              {/* <Image
+                src={}
+                alt={`AC_Image`}
+                className="h-[90%] object-contain"
+              /> */}
+            </div>
+            <div className="p-4 rounded-lg bg-zinc-100 w-full h-[155px] ">
+              <h1 className="text-md font-regular ">AC Repair</h1>
+            </div>
+          </div>
+        </a>
+        <a>
+          <div className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl ">
+            <div className="w-full p-6 h-[200px] overflow-hidden relative">
+              {/* <Image
+                src={}
+                alt={`AC_Image`}
+                className="h-[90%] object-contain"
+              /> */}
+            </div>
+            <div className="p-4 rounded-lg bg-zinc-100 w-full h-[155px] ">
+              <h1 className="text-md font-regular ">Microwave Repair</h1>
+            </div>
+          </div>
+        </a>
+        <a>
+          <div className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl ">
+            <div className="w-full p-6 h-[200px] overflow-hidden relative">
+              {/* <Image
+                src={}
+                alt={`AC_Image`}
+                className="h-[90%] object-contain"
+              /> */}
+            </div>
+            <div className="p-4 rounded-lg bg-zinc-100 w-full h-[155px] ">
+              <h1 className="text-md font-regular ">Washing Machine Repair</h1>
+            </div>
+          </div>
+        </a>
         <a
           href="/products"
           className="w-[100vw] left-0 flex items-end pb-16 justify-center lg:h-[113%] h-[103%] bg-gradient-to-b from-transparent via-zinc-100/60 to-zinc-200 absolute "
