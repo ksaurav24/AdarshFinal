@@ -6,6 +6,7 @@ const Category = (category) => {
     <motion.div
       onHoverStart={() => setOnHover(true)}
       onHoverEnd={() => setOnHover(false)}
+      onClick={() => setOnHover(!onHover)}
       className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[238px] bg-white shadow-xl "
     >
       <div className="w-full p-6 h-[180px] overflow-hidden relative">

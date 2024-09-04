@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { products } from "../data/data";
 import { Saira } from "next/font/google";
 import Image from "next/image";
@@ -10,7 +9,6 @@ const saira = Saira({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 const Products = () => {
-  const [onHover, setOnHover] = React.useState(false);
   return (
     <div id="products" className="w-screen py-12 flex flex-col ">
       <h1
