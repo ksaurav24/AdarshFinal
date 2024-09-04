@@ -46,9 +46,9 @@ const Hero = () => {
           className="lg:text-sm text-xs text-zinc-50 lg:w-[40%] w-[80%] text-center mb-8 font-regular"
         >
           we specialize in providing high-quality repair services for all major
-          household appliances. Whether it's your air conditioner, refrigerator,
-          or washing machine, our professional team is here to help you get back
-          to comfort.
+          household appliances. Whether it&apos;s your air conditioner,
+          refrigerator, or washing machine, our professional team is here to
+          help you get back to comfort.
         </motion.p>
         <a href="/contact">
           <motion.button
