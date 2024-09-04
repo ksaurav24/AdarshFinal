@@ -40,7 +40,7 @@ const Page = () => {
         })}
       </div>
       <h3
-        className={`${saira.className} lg:text-4xl text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
+        className={`${saira.className} lg:text-4xl mt-8 text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
       >
         Microwave Repair
       </h3>
@@ -65,7 +65,7 @@ const Page = () => {
         })}
       </div>
       <h3
-        className={`${saira.className} lg:text-4xl text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
+        className={`${saira.className} lg:text-4xl mt-8 text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
       >
         Washing Machine Repair
       </h3>
