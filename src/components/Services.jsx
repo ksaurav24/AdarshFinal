@@ -49,7 +49,7 @@ const Services = () => {
               return (
                 <div
                   key={idx}
-                  className="lg:w-[20vw] w-[80vw] mx-auto h-[340px] cursor-pointer  lg:mr-20 my-8 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
+                  className="lg:w-[20vw] w-[80vw] mx-auto h-[360px] cursor-pointer  lg:mr-20 my-8 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
                 >
                   <div className="w-full h-[200px] before:w-full before:h-full overflow-hidden before before:absolute before:mix-blend-color-burn before:bg-red-600 serviceChild relative">
                     <Image

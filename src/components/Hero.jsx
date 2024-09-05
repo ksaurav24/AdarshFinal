@@ -50,7 +50,7 @@ const Hero = () => {
           refrigerator, or washing machine, our professional team is here to
           help you get back to comfort.
         </motion.p>
-        <a href="/contact">
+        <a href="https://wa.me/+919811391053">
           <motion.button
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

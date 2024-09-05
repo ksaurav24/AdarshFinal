@@ -6,11 +6,13 @@ const Footer = () => {
       <div className="w-screen justify-between lg:gap-0 gap-6 flex text-zinc-50 lg:flex-row bg-zinc-950 flex-col lg:py-8 py-8 lg:px-12 px-8">
         <div className="lg:w-[30vw] w-[85vw]">
           <h1 className="text-2xl font-semibold  mb-4">
-            Adarsh Refrigeration <br /> & Air Conditioners
+            Adarsh Refrigeration <br /> &amp; Air Conditioners
           </h1>
-          <p className="text-zinc-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            blanditiis maxime cumque?
+          <p className="text-zinc-300 text-xs">
+            At Adarsh Refrigeration &amp; Air Conditioners, we provide expert
+            repair services and genuine spare parts. Our skilled technicians
+            ensure your devices run smoothly, focusing on professionalism and
+            customer satisfaction.
           </p>
         </div>
 

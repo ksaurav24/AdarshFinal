@@ -41,8 +41,9 @@ const About = () => {
           className={`lg:w-[80%] w-[80vw] lg:text-4xl text-lg font-semibold text-center ${saira.className}`}
         >
           Adarsh Refrigeration & Air Conditioners delivers expert appliance
-          repair services. Our skilled technicians ensure your devices run
-          smoothly, focusing on professionalism and customer satisfaction.
+          repair services and genuine spare parts. Our skilled technicians
+          ensure your devices run smoothly, focusing on professionalism and
+          customer satisfaction.
         </div>
         <div className="gap-4 flex lg:flex-row flex-col  justify-between mt-10 items-center">
           {about.map((item, index) => {

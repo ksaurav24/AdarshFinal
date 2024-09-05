@@ -16,20 +16,6 @@ import Whirlpool_Logo from "../../public/Companies/Whirlpool-Logo.webp";
 import Voltas_Logo from "../../public/Companies/Voltas-Logo.webp";
 import IFB_Logo from "../../public/Companies/IFB-Logo.webp";
 
-import product1 from "../../public/productsImages/product1.jpg";
-import product2 from "../../public/productsImages/product2.jpg";
-import product3 from "../../public/productsImages/product3.jpg";
-import product4 from "../../public/productsImages/product4.jpg";
-import product5 from "../../public/productsImages/product5.jpg";
-import product6 from "../../public/productsImages/product6.jpg";
-import product7 from "../../public/productsImages/product7.jpg";
-import product8 from "../../public/productsImages/product8.jpg";
-import product9 from "../../public/productsImages/product9.jpg";
-import product10 from "../../public/productsImages/product10.jpg";
-import product11 from "../../public/productsImages/product11.jpg";
-import product12 from "../../public/productsImages/product12.jpg";
-import product13 from "../../public/productsImages/product13.jpg";
-
 const navLinks = [
   {
     name: "Home",
@@ -66,9 +52,9 @@ const about = [
     icon: teamIcon,
   },
   {
-    title: "24 Hour Support",
+    title: "Genuine Spare Parts",
     description:
-      "We’re here for you around the clock, offering support whenever you need it.",
+      "We offer authentic spare parts to ensure the longevity of your appliances.",
     icon: supportIcon,
   },
 ];
@@ -77,37 +63,37 @@ const services = [
   {
     title: "Air conditioner",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "We provide expert repair services for all types of air conditioners. Our technicians are skilled and experienced in handling all kinds of AC issues.",
     image: ServiceAc,
   },
   {
     title: "Washing Machine",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Our technicians are well-versed in repairing all types of washing machines. We ensure that your appliance is up and running in no time.",
     image: ServiceWm,
   },
   {
     title: "Fridge",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "From minor repairs to major issues, we provide comprehensive fridge repair services. Our technicians are trained to handle all kinds of refrigerator problems.",
     image: ServiceFridge,
   },
   {
     title: "Microwave",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Microwave ovens are an essential part of the kitchen. We offer quick and efficient repair services to ensure your microwave is working perfectly.",
     image: ServiceMicrowave,
   },
   {
     title: "RO Water Purifier",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Water purifiers need regular maintenance to function efficiently. We provide repair and maintenance services for all types of RO water purifiers.",
     image: ServiceRo,
   },
   {
     title: "Water Dispenser",
     description:
-      "Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Ensure your water dispenser is in top condition with our repair services. Our technicians are skilled in handling all kinds of water dispenser issues.",
     image: ServiceWd,
   },
 ];
