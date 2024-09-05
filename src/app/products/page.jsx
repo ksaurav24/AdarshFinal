@@ -28,11 +28,14 @@ const Page = () => {
                   <Image
                     src={product.image}
                     alt={`${product.title}_Image`}
-                    className="h-[90%] object-contain"
+                    className="h-[90%] mx-auto object-contain"
                   />
                 </div>
-                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
-                  <h1 className="text-sm font-regular ">{product.title}</h1>
+                <div className="p-4 flex flex-col rounded-lg bg-zinc-100 w-full h-[156px] ">
+                  <h3 className="text-sm font-regular h-[126px]">
+                    {product.title}
+                  </h3>
+                  <h4 className="text-md font-semibold"> {product.price}</h4>
                 </div>
               </div>
             </a>
@@ -53,11 +56,14 @@ const Page = () => {
                   <Image
                     src={product.image}
                     alt={`${product.title}_Image`}
-                    className="h-[90%] object-contain"
+                    className="h-[90%] mx-auto object-contain"
                   />
                 </div>
-                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
-                  <h1 className="text-sm font-regular ">{product.title}</h1>
+                <div className="p-4 flex flex-col rounded-lg bg-zinc-100 w-full h-[156px] ">
+                  <h3 className="text-sm font-regular h-[126px]">
+                    {product.title}
+                  </h3>
+                  <h4 className="text-md font-semibold"> {product.price}</h4>
                 </div>
               </div>
             </a>
@@ -78,11 +84,14 @@ const Page = () => {
                   <Image
                     src={product.image}
                     alt={`${product.title}_Image`}
-                    className="h-[90%] object-contain"
+                    className="h-[90%] mx-auto object-contain"
                   />
                 </div>
-                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
-                  <h1 className="text-sm font-regular ">{product.title}</h1>
+                <div className="p-4 flex flex-col rounded-lg bg-zinc-100 w-full h-[156px] ">
+                  <h3 className="text-sm font-regular h-[126px]">
+                    {product.title}
+                  </h3>
+                  <h4 className="text-md font-semibold"> {product.price}</h4>
                 </div>
               </div>
             </a>
