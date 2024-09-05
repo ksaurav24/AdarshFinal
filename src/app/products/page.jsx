@@ -104,6 +104,7 @@ const Page = () => {
                     src={product.image}
                     alt={`${product.title}_Image`}
                     className="h-[90%] object-contain"
+                    unoptimized={true}
                   />
                 </div>
                 <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
