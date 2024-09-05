@@ -3,8 +3,8 @@ import { Saira } from "next/font/google";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import aboutBg from "../../public/about-bg.png";
-import { about } from "../data/data.jsx";
+import aboutBg from "../../../public/about-bg.png";
+import { about } from "../../data/data";
 const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
