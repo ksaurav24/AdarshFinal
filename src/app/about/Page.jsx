@@ -9,7 +9,7 @@ const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-const Page = () => {
+const page = () => {
   return (
     <div
       id="about"
@@ -75,4 +75,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
