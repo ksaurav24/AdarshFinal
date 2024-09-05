@@ -23,7 +23,7 @@ const Page = () => {
         {products.AC.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
-              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[340px] bg-white shadow-xl">
+              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl">
                 <div className="w-full p-6 h-[200px] overflow-hidden relative">
                   <Image
                     src={product.image}
@@ -51,7 +51,7 @@ const Page = () => {
         {products.Microwave.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
-              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[340px] bg-white shadow-xl">
+              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl">
                 <div className="w-full p-6 h-[200px] overflow-hidden relative">
                   <Image
                     src={product.image}
@@ -79,7 +79,7 @@ const Page = () => {
         {products.Washing_Machine.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
-              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[340px] bg-white shadow-xl">
+              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl">
                 <div className="w-full p-6 h-[200px] overflow-hidden relative">
                   <Image
                     src={product.image}
