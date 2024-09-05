@@ -98,18 +98,20 @@ const Page = () => {
         {products.RO.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
-              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[340px] bg-white shadow-xl">
+              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl">
                 <div className="w-full p-6 h-[200px] overflow-hidden relative">
                   <Image
                     src={product.image}
                     alt={`${product.title}_Image`}
-                    className="h-[90%] object-contain"
+                    className="h-[95%] mx-auto object-contain"
                     unoptimized={true}
                   />
                 </div>
-                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
-                  <h3 className="text-sm font-regular ">{product.title}</h3>
-                  <h4 className="text-md font-regular"> {product.price}</h4>
+                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[156px] ">
+                  <h3 className="text-sm font-regular h-[136px]">
+                    {product.title}
+                  </h3>
+                  <h4 className="text-md font-semibold"> {product.price}</h4>
                 </div>
               </div>
             </a>
