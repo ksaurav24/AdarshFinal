@@ -195,42 +195,33 @@ const products = {
       title: "STAND",
       link: "https://www.amazon.in/Hipkoo-Washing-Dishwasher-Refrigerator-Capacity/dp/B0C8VB73WC/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.pM04a4h6RbMvSULgMxQx5i2thrpJWxJ0zfw3ooLd2UG7JpmXHygQN05xWOOKCX2Uz3UoivvNAfDrHprWxRb9DhLXtpBdw3aTWLgclZEvcyTdd5mOs3EfXv3rQG0hq9n2fRv9l-0oUN1KNeZqWrpI5i1Q8_ZzEgQvFlQH1vkCcDzGHuvMGCY3khej812vsRQgq52m9mn8rkw0jZ040nflVb0BQNJABKDOnlZAlZoZBUk.m8Tk4YR-UvfSTMZXIPirQIljPXQmZjpaMTiJ7_GKufI&dib_tag=se&keywords=washing+machine+stand&qid=1725368493&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
     },
+  ],
+  RO: [
     {
-      title: "GEAR BOX",
-      link: "https://www.amazon.in/spareplanetTM-Gearbox-Compatible-Whirlpool-Automatic/dp/B08NG3R44S/ref=sr_1_1_sspa?crid=2WZEMG5JXC80Z&dib=eyJ2IjoiMSJ9.4nfA948fFlQ2ofpdp05TDo_sFI9MGs_oEfLxd1ftdHlFCnKqzZXXTmtlVRX2rGHbX1n35YPqGf9juwNxmmIyuhpwej4oN9VFMTNL7iT-fr--08nYjWTyZm8pU2w8wHN-SD-oUwZCsNnxvZD6-xMBeTn9_52fPbqx58J88_KHjRzlM2mrTaSsPGxZHKMvAlL10WkqHKghxx7EpEjeQfHC3pVRoHhA9LV8ZXZ3zt6Zyzg.0W9nNtstOkLW_zceo7Fd8EuTTlzhhcAED0BD8CTCN3Y&dib_tag=se&keywords=WASHING%2BMACHINE%2BGEAR%2BBOX&qid=1725368552&sprefix=washing%2Bmachine%2Bgear%2Bbox%2Caps%2C215&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+      title: "RO Water Filter",
+      link: "https://www.amazon.in/dp/B0987S7R2Q",
     },
     {
-      title: "BELT",
-      link: "https://www.amazon.in/dp/B08F4M6LGW/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B08F4M6LGW&pd_rd_w=gosJx&content-id=amzn1.sym.9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_p=9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_r=BJC746KB9ET96M1CC37Q&pd_rd_wg=SgTGT&pd_rd_r=bb763376-7fc9-45d6-b32b-62cdfba217d7&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+      title: "RO Membrane",
+      link: "https://www.amazon.in/dp/B07H3Z5BRD",
     },
     {
-      title: "MOTOR SPIN/WASH",
-      link: "https://www.amazon.in/Payflip-Compatible-Godrej-Washing-Machine/dp/B0D9S2XQNV/ref=zg_bs_g_1380360031_d_sccl_1/258-5528887-6258165?psc=1",
+      title: "RO Pump",
+      link: "https://www.amazon.in/dp/B08L9FJGG9",
     },
     {
-      title: "PLUSATOR",
-      link: "https://www.amazon.in/Compatible-Automatic-Part-No-1001/dp/B0DCTRDP2W/ref=sr_1_22?crid=291X4XI1M8FVJ&dib=eyJ2IjoiMSJ9.fbit647dNmVlo5sSbWXBNFEUezno-NXKuIgTeNmoRXtiLwrPpPDuUvoS0skqX4lwQ5qLWYMIy2ZYT_bNSZyaq8mSbEIzbbd7Ueua4j5zaPPacNPWjqcvIaZykIKtLqTnWB5J0t2IGunNU0rseRN0fD_3vK_-qDmfUg6hOXjdYQ1gdvADBAUhdvBKb7Pwh1hYT8jToF_wPQzJlP9S_klVqgPwv0pr9Z4HzW_LamGY32iQGUB0QukgK_6vb7dz9r0PP8KXcw2YQ1k35UpLphto1leKIlJUoEvxeOY7hCqagbc.5oMEJokpsd8mtZGq4H34gEpxrsbJgvzPACENSGQ56r8&dib_tag=se&keywords=pulsator&qid=1725368696&s=kitchen&sprefix=plusator%2Ckitchen%2C215&sr=1-22",
+      title: "RO Pipe Fitting Kit",
+      link: "https://www.amazon.in/dp/B097DG34WP",
     },
     {
-      title: "CAPACITOR",
-      link: "https://www.amazon.in/doctorspare-Capacitor-Washing-Machine-Motor/dp/B07SJH4M6T/ref=sr_1_1?crid=3SYQS0R8OUEVV&dib=eyJ2IjoiMSJ9.5cAxVQ_obREiBUpbjN8OLRyaUB-mnMO0YEhZT01RFTdQSLkmnQ2smjft598qVGd9RZHXNV-k7wcwWz0HAVzweknDW3zz2t9ObdCSiU5QZJtuYg2oVFL0lM-qp4FRqq4ZyxUgXnEg4rTbNW45odHK2WTGDGJUjw_RuFiyzwDDjrG5dkLfPe9W4MRdrJswCHgDyABWd8yJbVE-Z0wk0IREqx-qUShNaju3gEEjlifnurfknmjMM9mvzctIG1TRtWbphvrojDVAR_YpONUfu0Kv-0zFGXLfZx7BH83xc4iJwfM.zu7UAQUv14TN4P8csp-dyBRWkLoYE9--kK7AwKh15i0&dib_tag=se&keywords=washing+machine+capacitor+cost&qid=1725368771&sprefix=WASHING+MACHINE+CAPA%2Caps%2C218&sr=8-1",
+      title: "RO Mineral Cartridge",
+      link: "https://www.amazon.in/dp/B08D8FGJDH",
     },
     {
-      title: "DRAIN SEAL",
-      link: "https://www.amazon.in/FUSION-STAR-Drain-Rubber-Compatible/dp/B0CN52P7P9/ref=sr_1_7?crid=P046TTSEOJ5N&dib=eyJ2IjoiMSJ9.XoIUo9TY4qLHaQ6v-1dYWlHunfv87z96OgYdnBQV0OxmWPvlP5QJ-p90xzx2lxwGopEoRWXl8g9BPrru6ITsUxqspN8cIFlO_0R77nIcsYv1jdDjeh39MmD3sLWJbmtJpraXnUxAInriz8KVFZVbMNHfeerMpcboxBOQhN4RXNZwLXo-WrCbSIbWcexTofggWKRkAuXkMXbDlcPKLzCKhbBFAALg7SHtvOgHbz8Wd9w.DHHbswjAj754ZGU3c6Rxp23IoV2JHj86tWcV_F-lCcA&dib_tag=se&keywords=washing+machine+seal&qid=1725368869&sprefix=washi9ng+amchine+seal%2Caps%2C217&sr=8-7",
-    },
-    {
-      title: "SPIN SEAL",
-      link: "https://www.amazon.in/doctorspare-Automatic-Washing-Machine-Adhesive/dp/B08MVBYQNG/ref=sr_1_2?crid=3NDO8TGPCFAQR&dib=eyJ2IjoiMSJ9.IF51lVowKpjcsv8xfch50ZRvBM727sszEL_8au3sKNktjvUf9U_Ryvll1oYPGhxohecTbjy1zi2ncAoXNnE2-pzkoUDEWeahtVM6s3obiU7NgfvDvJLyz998wO4QO4Y029dD9wWlTQOSK2YTSTo09De0DLUWs000aIzWL6uu9vFxnsdXdxnyV5DMOluV6lWbypb3GY9uM1lDajlY7-xS1cKTPRX9xhDtQZG60Xi5U70KXWTuPGbuXxvf7lkI2j3PX-_b30ORN4NLxI_VhTdiR7WED4q9EiSnf4jthJ85GrA.zuR1nuN4xo2XWg3xIipZ7J9-VB3VGeVrtl5zbxlmSlA&dib_tag=se&keywords=SPIN+SEAL&qid=1725368933&s=kitchen&sprefix=spin+seal%2Ckitchen%2C216&sr=1-2",
-    },
-    {
-      title: "TIMER WASH/ SPIN",
-      link: "https://www.amazon.in/SANAVYA-Washing-Machine-Compatible-Automatic/dp/B09LZ9MSW6/ref=sr_1_2?crid=W83TPDY26H0F&dib=eyJ2IjoiMSJ9.SHH4b8E1_JH1Qql1FXQqIhPsRiNpgo2ihcHR--Yct0PkNAHPlt4F7doggWRIqtK8hgybQ_VCnzxCKFoaE7Y5ayRfuNToJrX6q8dblO_FQZ3OctDxkggABZT6ysF-e9xDZwXxRRtoGXxnzDXzhILGF1Yg0BpZc2nnzZfpki1u6IZz6kKd- sRSP9MRSmDmPhjvhELLphtNYgD5u590SqevPX9E33-vKVYJcfkkVXj_LR1qr3nmxjUsk2eoK1Gpk7PIhe_fUjvLH4Qkko0UbzUwSwQ2RP7NwoqWi8dHC6KyNXs.-Y5un1539Yo4Vmiw6H5QIBHbrloHUu-j6HGh9SyTn-8&dib_tag=se&keywords=WASHING+MACHINE+TIMER&qid=1725369301&s=kitchen&sprefix=washing+machine+timer%2Ckitchen%2C265&sr=1-2",
-    },
-    {
-      title: "SPIN INNER LID",
-      link: "https://www.amazon.in/SATYWALI-Compatible-Automatic-Washing-Machine/dp/B0CY8S1B7B/ref=sr_1_5?crid=2U7IYAQOOIYUP&dib=eyJ2IjoiMSJ9.lEeh0p_J62x2MWaXIXtjYIJLxKXkgSvQEBhpiQFKdhYiNC-kZyWCTJ30o7rK7q1j48Jwd0xcn2aTVmXb_o1mSCQItTSPg_mAdFCR8hRxz0VnABzzn70ZKHjKnqR27r8OrORgVGmzo6HnFTtrclZuDDBf5p4PRI9SnCWWLquLPv1b7Fh4JVU4aHPZFEPhwGLI1RRFk4AB1N6YuUvGOPkfrsDG1VmgcJcitUV-ertmM-FIrfvxpR-0d9uMds6sOHkP6UlkDAH1WRSdg8ek2Im-Q43gEge75XsGl6XY4vIvYQA.-RG8qbbTdBvDwI_cAaInzzdnBYGrJYSADPoe5Q1AJ-w&dib_tag=se&keywords=washing+machine+SPIN+lid&qid=1725369421&s=kitchen&sprefix=washing+machine+spi+lid%2Ckitchen%2C219&sr=1-5",
+      title: "RO Booster Pump",
+      link: "https://www.amazon.in/dp/B08FW5TLBF",
     },
   ],
 };
+
 export { navLinks, about, services, companies, products };

@@ -9,9 +9,11 @@ export default function Home() {
     <main className="  overflow-x-hidden">
       <Hero />
       <About />
-      <Services />
+      <div className="flex items-center lg:flex-row flex-col">
+        <Services />
+        <Products />
+      </div>
       <Companies />
-      <Products />
     </main>
   );
 }

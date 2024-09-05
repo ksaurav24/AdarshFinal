@@ -17,7 +17,7 @@ const Page = () => {
       <h3
         className={`${saira.className} lg:text-4xl text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
       >
-        AC Repair
+        AC Spare Parts
       </h3>
       <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
         {products.AC.map((product, idx) => {
@@ -42,7 +42,7 @@ const Page = () => {
       <h3
         className={`${saira.className} lg:text-4xl mt-8 text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
       >
-        Microwave Repair
+        Microwave Spare Parts
       </h3>
       <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
         {products.Microwave.map((product, idx) => {
@@ -67,10 +67,35 @@ const Page = () => {
       <h3
         className={`${saira.className} lg:text-4xl mt-8 text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
       >
-        Washing Machine Repair
+        Washing Machine Spare Parts
       </h3>
       <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
         {products.Washing_Machine.map((product, idx) => {
+          return (
+            <a key={idx} href={product.link}>
+              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[340px] bg-white shadow-xl">
+                <div className="w-full p-6 h-[200px] overflow-hidden relative">
+                  <Image
+                    src={product.image}
+                    alt={`${product.title}_Image`}
+                    className="h-[90%] object-contain"
+                  />
+                </div>
+                <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
+                  <h1 className="text-sm font-regular ">{product.title}</h1>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+      <h3
+        className={`${saira.className} lg:text-4xl mt-8 text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
+      >
+        RO Spare Parts
+      </h3>
+      <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
+        {products.RO.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
               <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[340px] bg-white shadow-xl">
