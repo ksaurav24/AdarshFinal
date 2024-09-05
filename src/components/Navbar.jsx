@@ -93,9 +93,12 @@ const Navbar = () => {
             <div className="text-xs font-medium pl-1 text-gray-300">
               Call Us Anytime
             </div>
-            <div className="text-md font-bold hover:text-red-600 transition-colors duration-300 ease-in-out cursor-pointer">
-              +91 1234567890
-            </div>
+            <a
+              href="tel:+919811391053"
+              className="text-md font-bold hover:text-red-600 transition-colors duration-300 ease-in-out cursor-pointer"
+            >
+              +91 98113 91053
+            </a>
           </div>
         </div>
       </div>

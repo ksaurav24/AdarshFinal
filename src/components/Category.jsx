@@ -25,7 +25,7 @@ const Category = (category) => {
                 Get Repair Service
               </a>
               <a
-                href="/products"
+                href={`/products#${category.category}`}
                 className="px-3 py-1 rounded-md text-lg font-medium text-center bg-zinc-50 text-zinc-950"
               >
                 Buy Spare Parts
@@ -41,7 +41,7 @@ const Category = (category) => {
       </div>
       <div className="p-3 rounded-lg bg-zinc-100 w-full  ">
         <h1 className="text-xl text-zinc-800 text-center font-semibold ">
-          {category.category} Repair
+          {category.category} Spare Parts
         </h1>
       </div>
     </motion.div>

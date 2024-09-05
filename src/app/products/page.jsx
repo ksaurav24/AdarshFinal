@@ -19,7 +19,10 @@ const Page = () => {
       >
         AC Spare Parts
       </h3>
-      <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
+      <div
+        id="AC"
+        className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
+      >
         {products.AC.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
@@ -47,7 +50,10 @@ const Page = () => {
       >
         Microwave Spare Parts
       </h3>
-      <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
+      <div
+        id="Microwave"
+        className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
+      >
         {products.Microwave.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
@@ -75,7 +81,10 @@ const Page = () => {
       >
         Washing Machine Spare Parts
       </h3>
-      <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
+      <div
+        id="Washing%20Machine"
+        className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
+      >
         {products.Washing_Machine.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>
@@ -103,7 +112,10 @@ const Page = () => {
       >
         RO Spare Parts
       </h3>
-      <div className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4">
+      <div
+        id="RO"
+        className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
+      >
         {products.RO.map((product, idx) => {
           return (
             <a key={idx} href={product.link}>

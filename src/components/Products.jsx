@@ -23,7 +23,7 @@ const Products = () => {
       >
         Some of our trusted products for your appliances
       </h1>
-      <div className="grid  grid-cols-1 relative px-12 gap-6 mt-4">
+      <div className="grid  grid-cols-1 lg:grid-cols-4 relative px-12 gap-6 mt-4">
         {["AC", "Microwave", "Washing Machine", "RO"].map((category, idx) => {
           return <Category category={category} key={idx} />;
         })}

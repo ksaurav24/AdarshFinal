@@ -22,16 +22,16 @@ const Footer = () => {
             <a href="#" className="text-md font-light ">
               Home
             </a>
-            <a href="#about" className="text-md font-light ">
+            <a href="/about" className="text-md font-light ">
               About
             </a>
-            <a href="#services" className="text-md font-light">
+            <a href="/services" className="text-md font-light">
               Services
             </a>
-            <a href="#products" className="text-md font-light">
+            <a href="/products" className="text-md font-light">
               Products
             </a>
-            <a href="#contact" className="text-md font-light ">
+            <a href="/contact" className="text-md font-light ">
               Contact
             </a>
           </div>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-screen bg-zinc-900 flex justify-center items-center h-[60px] text-md font-light text-zinc-100">
-        © 2024 Copyright by xyz
+        © 2024 Copyright by Adarsh Refrigeration &amp; Air Conditioners
       </div>
     </>
   );

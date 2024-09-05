@@ -24,7 +24,7 @@ const Services = () => {
         alt="ServicesBackgroundImage-2"
         className="serviceBg absolute right-0 -z-0"
       />
-      <div className="lg:w-[50vw] w-screen  z-10">
+      <div className=" w-screen  z-10">
         <div className="flex flex-col gap-2 justify-center items-center text-zinc-950">
           <div className="flex items-center justify-center mt-4">
             {/* <p className="text-7xl text-red-500 font-thin">-</p> */}
@@ -44,14 +44,14 @@ const Services = () => {
             rerum aperiam.
           </div>
 
-          <div className=" grid lg:w-[50vw] w-screen lg:px-0 lg:mt-4 lg:grid-cols-2 grid-cols-1">
+          <div className=" grid w-screen  lg:px-12 lg:mt-4 lg:grid-cols-3 grid-cols-1">
             {services.map((service, idx) => {
               return (
                 <div
                   key={idx}
-                  className="lg:w-[18vw] w-[80vw] mx-auto h-[320px] cursor-pointer  mr-8 my-8 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
+                  className="lg:w-[20vw] w-[80vw] mx-auto h-[340px] cursor-pointer  mr-20 my-8 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
                 >
-                  <div className="w-full h-[180px] before:w-full before:h-full overflow-hidden before before:absolute before:mix-blend-color-burn before:bg-red-600 serviceChild relative">
+                  <div className="w-full h-[200px] before:w-full before:h-full overflow-hidden before before:absolute before:mix-blend-color-burn before:bg-red-600 serviceChild relative">
                     <Image
                       src={service.image}
                       alt={`${service.title}_Image`}
