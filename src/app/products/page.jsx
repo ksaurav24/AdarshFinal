@@ -107,7 +107,8 @@ const Page = () => {
                   />
                 </div>
                 <div className="p-4 rounded-lg bg-zinc-100 w-full h-[136px] ">
-                  <h1 className="text-sm font-regular ">{product.title}</h1>
+                  <h3 className="text-sm font-regular ">{product.title}</h3>
+                  <h4 className="text-md font-regular"> {product.price}</h4>
                 </div>
               </div>
             </a>
