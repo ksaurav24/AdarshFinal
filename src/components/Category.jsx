@@ -7,7 +7,7 @@ const Category = (category) => {
       onHoverStart={() => setOnHover(true)}
       onHoverEnd={() => setOnHover(false)}
       onClick={() => setOnHover(!onHover)}
-      className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[238px] bg-white shadow-xl "
+      className="lg:w-[22vw] w-[80vw] mx-auto rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[232px] bg-white shadow-xl "
     >
       <div className="w-full p-6 h-[180px] overflow-hidden relative">
         <AnimatePresence>
@@ -40,7 +40,7 @@ const Category = (category) => {
     /> */}
       </div>
       <div className="p-3 rounded-lg bg-zinc-100 w-full  ">
-        <h1 className="text-xl text-zinc-800 text-center font-semibold ">
+        <h1 className="text-md text-zinc-800 text-center font-semibold ">
           {category.category} Spare Parts
         </h1>
       </div>

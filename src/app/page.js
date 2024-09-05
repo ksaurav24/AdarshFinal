@@ -15,11 +15,11 @@ export default function Home() {
       <About />
       <div className="w-screen flex flex-col items-center justify-center gap-4 h-52 ">
         <div
-          className={`lg:w-[80%] w-[80vw] lg:text-4xl text-lg font-semibold text-center ${saira.className}`}
+          className={`lg:w-[80%] w-[80vw] lg:text-4xl text-2xl mt-4 font-semibold text-center ${saira.className}`}
         >
           What are you looking for?
         </div>
-        <div className="flex gap-8">
+        <div className="flex lg:flex-row flex-col lg:gap-8 gap-4">
           <a
             href="#services"
             className=" px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50"
