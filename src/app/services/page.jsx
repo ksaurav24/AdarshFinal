@@ -4,6 +4,7 @@ import servicesBg1 from "../../../public/servicesBg1.png";
 import servicesBg2 from "../../../public/servicesBg2.png";
 import Image from "next/image";
 import { services } from "../../data/data";
+import Service from "@/components/Service";
 
 const Page = () => {
   return (
@@ -40,24 +41,7 @@ const Page = () => {
 
           <div className=" grid w-screen lg:px-56 lg:mt-4 lg:grid-cols-3 grid-cols-1">
             {services.map((service, idx) => {
-              return (
-                <div
-                  key={idx}
-                  className="lg:w-[20vw] w-[80vw] mx-auto h-[320px] cursor-pointer  mr-8 my-4 serviceParent bg-white z-10 overflow-hidden shadow-xl rounded-lg "
-                >
-                  <div className="w-full h-[180px] before:w-full before:h-full overflow-hidden before before:absolute before:mix-blend-color-burn before:bg-red-600 serviceChild relative">
-                    <Image
-                      src={service.image}
-                      alt={`${service.title}_Image`}
-                      className="serviceImg"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <h1 className="text-lg font-semibold">{service.title}</h1>
-                    <p className="text-sm mt-2">{service.description}</p>
-                  </div>
-                </div>
-              );
+              return <Service key={idx} service={service} />;
             })}
           </div>
         </div>
