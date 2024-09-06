@@ -35,7 +35,7 @@ const About = () => {
           <h1 className="text-lg uppercase text-red-500  font-light">
             About Us
           </h1>
-          <p className="text-7xl text-red-500 lg:mx-0 ml-0 font-thin">-</p>
+          <p className="text-7xl text-red-500 lg:mx-3 ml-0 font-thin">-</p>
         </div>
         <div
           className={`lg:w-[80%] w-[80vw] lg:text-4xl text-lg font-semibold text-center ${saira.className}`}
