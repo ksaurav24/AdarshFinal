@@ -5,6 +5,8 @@ const nextConfig = {
       "a.media-amazon.com",
       "m.media-amazon.com",
       "images-na.ssl-images-amazon.com",
+      "accessorybee.com",
+      "cdn.dotpe.in",
     ],
   },
 };
