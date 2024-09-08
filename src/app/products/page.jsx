@@ -46,7 +46,7 @@ const Page = () => {
         })}
       </div>
       <h3
-        className={`${saira.className} lg:text-4xl text-2xl mb-8 font-semibold text-center text-zinc-950 capitalize`}
+        className={`${saira.className} lg:text-4xl text-2xl mt-8 mb-8 font-semibold text-center text-zinc-950 capitalize`}
       >
         AC Spare Parts
       </h3>
