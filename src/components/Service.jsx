@@ -30,9 +30,10 @@ const Service = (props) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
               className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-900 z-50 "
             >
-              <h3 className="mb-2 text-center text-zinc-50 text-xl">
+              <h3 className="mb-2 px-1 text-center text-zinc-50 text-xl">
                 Get Expert Repair Service at just ₹299
               </h3>
               <a

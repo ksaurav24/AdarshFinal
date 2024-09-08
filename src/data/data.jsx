@@ -343,6 +343,100 @@ const products = {
       image: "https://a.media-amazon.com/images/I/41WHeE6hLWL._SY879_.jpg",
     },
   ],
+
+  Fridge: [
+    {
+      title: "Multi - Pin Relay (PTC Relay) and OLP for Refrigerator",
+      link: "https://www.accessorybee.com/store/buy-relays-and-olp-in-india/3196-10-multi-pin-relay-ptc-relay-and-olp-for-refrigerator.html#/26-pins-2_pin",
+      price: "₹322.00",
+      image:
+        "https://www.accessorybee.com/store/4014-thickbox_default/multi-pin-relay-ptc-relay-and-olp-for-refrigerator.jpg",
+    },
+    {
+      title: "Refrigerator Bulb",
+      link: "https://www.accessorybee.com/store/284-refrigerator-bulb",
+      price: "₹90",
+      image: "",
+    },
+    {
+      title: "Timer for LG Double Door Refrigerator In Stock",
+      link: "https://www.accessorybee.com/store/double-door-timers/3242-timer-for-lg-double-door-refrigerator.html",
+      price: "₹480.00",
+      image:
+        "https://www.accessorybee.com/store/4177-thickbox_default/timer-for-lg-double-door-refrigerator.jpg",
+    },
+    {
+      title:
+        "Thermostat Single Door Refrigerator Compatible for (Whirlpool Opera Type 2)",
+      link: "https://www.hindustanrefrigeration.com/product/30018711/Thermostat-Single-Door-Refrigerator-Compatible-for--Whirlpool-Opera-Type-2-",
+      price: "₹340",
+      image: "https://cdn.dotpe.in/longtail/store-items/2524710/EyZyqhpu.jpeg",
+    },
+    {
+      title:
+        "Refrigerator PTC Starter/Start Relay Overload Color: Black (1/2/3 PIN R)",
+      link: "https://www.hindustanrefrigeration.com/product/30186474/Refrigerator-PTC-Starter-Start-Relay-Overload-Color--Black--1-2-3-PIN-R-",
+      price: "₹249",
+      image: "https://cdn.dotpe.in/longtail/store-items/2524710/s5ZJrlPq.jpeg",
+    },
+    {
+      title: "Refrigerator Overload",
+      link: "https://www.hindustanrefrigeration.com/product/30583700/Refrigerator-Overload",
+      price: "₹199.8",
+      image: "https://cdn.dotpe.in/longtail/store-items/2524710/urOgaL6l.jpeg",
+    },
+    {
+      title:
+        "Thermostat Single Door Refrigerator Compatible for Samsung Single Door Refrigerator 165-300 Liter",
+      link: "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj8-NfU1o2IAxX0kEsFHQ24IzMYABACGgJzZg&co=1&ase=2&gclid=CjwKCAjwiaa2BhAiEiwAQBgyHobaC0DDr- ETiv_CaxVrbIU09AhKNYFY8o3qb5XkLyuO4J1dKe0LIxoCrBEQAvD_BwE&ohost=www.google.com&cid=CAESV-D26kw6j6U2-utitjwqSq8arOYibqpTz0_4dpKe7FyJTUiJbdNCUo1ukl2WqFDA63UH8rIg2fPd5EbgYwh3178dLaIYNN0TJ69fJa-n66DmOyZmzde8QQ&sig=AOD64_20w4s2jAaK5mewc_58yIRr6cS7Ww&ctype=5&q=&nis=4&ved=2ahUKEwjUotTU1o2IAxXFRmcHHV3UGIIQ9A4oAnoECAYQCA&adurl=",
+      price: "₹299",
+      image: "https://m.media-amazon.com/images/I/41lLj7RhHrS.jpg",
+    },
+    {
+      title:
+        "AHC Bottle Shelf For Fridge Compatible With Whirlpool Single Door Refrigerator Bottle Rack Holder Color Clear Pack Of 1 Part Code W10418661",
+      link: "https://www.amazon.in/dp/B0DCBVVWQW",
+      price: "₹349",
+      image:
+        "https://a.media-amazon.com/images/I/218DGd+SADL._SX300_SY300_.jpg",
+    },
+    {
+      title:
+        "Arvika Sales Whirlpool Original GNF/Mastermind Vegetable Basket for Double Door Refrigerator (Fridge) A201206) Match & Buy)",
+      link: "https://www.amazon.in/Arvika-Whirlpool-Original-Mastermind-Vegetable/dp/B0921F1VX8/ref=sr_1_9?dib=eyJ2IjoiMSJ9.ezP-o3OhxCn9-59LpN5ZKnucd2F2Fzov2av0dqGOFPY48aVVDWnfCLCnHGzoZtyU2uQ0Iaj-O_HFs8fcc4KqXB1JN6KC-F7b3q68EmgcWZODcEZ_7fI6f-S-fZrue9LvZ0I8fRCEu6MaMfolZ9fXaWUQ9J2cdRpDW4er6PI-6StwAvOynFvn4Hp4yxKsoFLaOxH2xpZVgrZ625tLgIE9p2A1r4TryyZk3f8Iu00zb5SYiukTR4Wc0TujmZjPokL1ZFDKf7m8EneS0IrBwN0D1Em-zZ7S2jL6GSQzcXFvJAk.YlHNjjZNhz9was_FpNUuwHft2GuLWbS-Tx7TMwNE0mk&dib_tag=se&keywords=fridge+basket&qid=1725636707&sr=8-9",
+      price: "₹1,740",
+      image: "https://a.media-amazon.com/images/I/31mD1XLoy0L._SX569_.jpg",
+    },
+
+    {
+      title:
+        "Arvika Sales Original Fridge Chiller Tray Compatible with Whirlpool GEN-Y/Imfresh/Fusion/ICEMAGIC Single Door Refrigerator 180 Litter to 215 Litter",
+      link: "https://www.amazon.in/Arvika-Sales-Compatible-Whirlpool-Refrigerator/dp/B0B8F1XVRQ/ref=sr_1_3?crid=3HW0XDY5MKA2T&dib=eyJ2IjoiMSJ9.DCRujtpR0rn7kRtFpZTFI5XwQMcgm-CacSYZGJUaOe2oaPmcQmwVoEyB2QwCoXQiGHiu3pfeifSb2cQNZBPFFwycrbIev04tPwihYDs5_6x1Nk4mvsTwE_e8kcDMLAvucRGf6d8XONFHVxeciXOlUyT9f3VymAXeVHYt_CezlqtFDnhfMqN7XKwTVG9xRoK4r9jzw26kNnQaZkxJ2C1LYg.N-4xgpz-cWRCiTgCAKcpcfika4qq-OePVdivFOUX98A&dib_tag=se&keywords=chiller+tray+fridge&qid=1725636762&sprefix=chiller+tray+fridge%2Caps%2C254&sr=8-3",
+      price: "₹1,350",
+      image: "https://a.media-amazon.com/images/I/410FxPwUf2L._SX679_.jpg",
+    },
+    {
+      title:
+        "TIKSHA ENTERPRISES TOUGHENED Glass with Silver Bidding (45.5=45.5) 34.07 CM RT 28 Compatible for Samsung Double Door Fridge",
+      link: "https://www.amazon.in/ENTERPRISES-TOUGHENED-Bidding-Compatible-Samsung/dp/B0DC3Q8B62/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oiOvwhC0ql2qKqtA0Y4WJ6xilFpfsXUZJNpgUsqNcwAQRiAlwfDH3JLY144ITeQ6pK20OFYnw0ypmHhoR4eVHWNd9Bfr8jVe4prNbQdrrjbhVxIO3yXGts3eIPNNpNTu5NMbwv0RxhZx34GEosCQxpZEpPhKbi8RqSbvc1I37c7evXw5cLDOXNr7GJDAWHPJxGMnArJ6xCclMtQSjLwP-2jOnAr-080TVvxOXqfWfes.gN0N78RaEksRr_ErlMqO0zLSHG53TpZ3K5-9e-rM_Rw&dib_tag=se&keywords=samsung+fridge+glass+shelf&qid=1725637086&sr=8-1",
+      price: "₹1,300",
+      image: "https://a.media-amazon.com/images/I/61yMx-vPHoL._SX425_.jpg",
+    },
+    {
+      title:
+        "Tiksha Enterprises wire shelf compatible Lg 165 litre fridge main shelf dimension in cm (44.5+43.8) X31.7 with telephone shape",
+      link: "https://www.amazon.in/Tiksha-Enterprises-compatible-165-dimension/dp/B08X18CD2J/ref=sr_1_1?crid=1HJBXC4KXZ7CG&dib=eyJ2IjoiMSJ9.MkqFTyuuui9gHGQT1RwSbrAnBvkKTB3Ir4v12sHdb0keW2lmbtv2aCYo4llne6_yJGWtHHHG44CeXZuBa7idAUlHzsINZOyEFy9Eca62Cmv2WYq2_pQ9h8yHJNfllRnlZ8E4Ug2nVoE2z7aG14uXXqNxjI5Nu1HCTWlJ5wy32chSlp2KGKrHdB15tXmv7fmjCnSTQk3tN9RlPAaqLwrfOP454_n5Dho6d5FfKqO1BQs.gedIGjfDlUkKWJBnqDTZwKZkfioRL5ZLuT7lTOfrh9w&dib_tag=se&keywords=wire+shelf+fridge&qid=1725637049&sprefix=wire+shelf+fridge%2Caps%2C245&sr=8-1",
+      price: "₹650",
+      image: "https://a.media-amazon.com/images/I/71hkDP47KIL._SX679_.jpg",
+    },
+    {
+      title:
+        "Your's Shopekart Heavy Duty Refrigerator Stand Suitable for All Brand Single Door/Double Door Refrigerators, 150-292 L",
+      link: "https://www.amazon.in/Yours-Shopekart-Liberty-Suitable-Refrigerators/dp/B07ZBKJTL2/ref=sr_1_3?crid=15YRUWJIZP2ZK&dib=eyJ2IjoiMSJ9.cgQlixPRZ0HgtEoroFY_wtwnRFhiJXsdajcg7vRKQCPPJK9RMgxA0gXUmkgdN5YwKK0F9og0hTJkMKqUZg4invc88_O5PJVhlAIeDzOVBQyg8rBwQ-df7onp0xEkyR14j3lqarDBGPJPnq78HJdzuWsOzSg6t8ESwSMLodEtgMJuVDCOK6JxwrRhgm9dSQ7cGDLMpwKUcs22YgSfYXJXUKUWqrSq5_gphXqTNON-CdU.cg0P8imwQPsNZWnF-rHVh5uvuXGwj2PFGchR4xNmCvg&dib_tag=se&keywords=fridge+stand&qid=1725637142&sprefix=firge+stan%2Caps%2C217&sr=8-3",
+      price: "₹439",
+      image: "https://a.media-amazon.com/images/I/61GnK33J3DL._SY450_.jpg",
+    },
+  ],
 };
 
 export { navLinks, about, services, companies, products };

@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import React from "react";
-const Category = (category) => {
+const Category = ({ category, image }) => {
   const [onHover, setOnHover] = React.useState(false);
   return (
     <motion.div
@@ -25,7 +26,7 @@ const Category = (category) => {
                 Get Repair Service
               </a>
               <a
-                href={`/products#${category.category}`}
+                href={`/products#${category}`}
                 className="px-3 py-1 rounded-md text-lg font-medium text-center bg-zinc-50 text-zinc-950"
               >
                 Buy Spare Parts
@@ -33,11 +34,11 @@ const Category = (category) => {
             </motion.div>
           )}
         </AnimatePresence>
-        {/* <Image
-      src={}
-      alt={`AC_Image`}
-      className="h-[90%] object-contain"
-    /> */}
+        <Image
+          src={image}
+          alt={`${category}_Image`}
+          className="h-[100%] object-contain"
+        />
       </div>
       <div className="p-3 rounded-lg bg-zinc-100 w-full  ">
         <h1 className="text-md text-zinc-800 text-center font-semibold ">

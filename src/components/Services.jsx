@@ -40,9 +40,9 @@ const Services = () => {
             Our Efficiant Services
           </div>
           <div className="lg:text-md text-sm text-center lg:w-[40vw] w-[80vw]  mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            necessitatibus sit in quos, odit quod consequatur sapiente earum
-            rerum aperiam.
+            Our services are designed to provide you with the best possible
+            solutions for your appliances. We provide a wide range of services
+            from regular check-ups to repair services.
           </div>
 
           <div className=" grid w-screen  lg:px-12 lg:mt-4 lg:grid-cols-3 grid-cols-1">
