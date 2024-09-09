@@ -11,8 +11,11 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "A project by SiteScript",
-  description: "A project by SiteScript",
+  title: "Home | Adarsh Refrigeration & Air Conditioners ",
+  description:
+    "Adarsh Refrigeration & Air Conditioners delivers expert appliance repair services. Our skilled technicians ensure your devices run smoothly, focusing on professionalism and customer satisfaction.",
+  keywords:
+    "Adarsh Refrigeration & Air Conditioners, Adarsh Refrigeration, Adarsh Air Conditioners, Adarsh Refrigeration & Air Conditioners, Adarsh Refrigeration & Air Conditioners delivers expert appliance repair services. Our skilled technicians ensure your devices run smoothly, focusing on professionalism and customer satisfaction, services, repair, appliances, devices, professionalism, customer satisfaction",
 };
 
 export default function RootLayout({ children }) {

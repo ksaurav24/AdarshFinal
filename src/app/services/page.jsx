@@ -6,6 +6,9 @@ import Image from "next/image";
 import { services } from "../../data/data";
 import Service from "@/components/Service";
 
+export const metadata = {
+  title: "Services | Adarsh Refrigeration & Air Conditioners",
+};
 const Page = () => {
   return (
     <div id="services" className="bg-white py-8 ">
