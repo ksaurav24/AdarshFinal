@@ -1,4 +1,3 @@
-"use client";
 import { Saira } from "next/font/google";
 import React from "react";
 import Image from "next/image";
