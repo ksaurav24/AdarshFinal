@@ -7,6 +7,7 @@ const nextConfig = {
       "images-na.ssl-images-amazon.com",
       "accessorybee.com",
       "cdn.dotpe.in",
+      "www.accessorybee.com",
     ],
   },
 };

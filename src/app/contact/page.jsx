@@ -22,7 +22,7 @@ const Page = () => {
   const { submit: onSubmit } = useWeb3Forms({
     access_key: accessKey,
     settings: {
-      from_name: "Acme Inc",
+      from_name: "Website Contact Form ",
       subject: "New Contact Message from your Website",
       // ... other settings
     },
