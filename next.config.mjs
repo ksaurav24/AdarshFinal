@@ -10,6 +10,8 @@ const nextConfig = {
       "www.accessorybee.com",
     ],
   },
+  target: "serverless",
+  poweredByHeader: false,
 };
 
 export default nextConfig;
