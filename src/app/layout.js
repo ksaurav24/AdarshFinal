@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Home | Adarsh Refrigeration & Air Conditioners ",
+  title: "Adarsh Refrigeration & Air Conditioners ",
   description:
     "Adarsh Refrigeration & Air Conditioners delivers expert appliance repair services. Our skilled technicians ensure your devices run smoothly, focusing on professionalism and customer satisfaction.",
   keywords:

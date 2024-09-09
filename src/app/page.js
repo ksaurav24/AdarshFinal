@@ -8,6 +8,9 @@ const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
+export const metadata = {
+  title: "Home | Adarsh Refrigeration & Air Conditioners",
+};
 export default function Home() {
   return (
     <main className="  overflow-x-hidden">
