@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import servicesBg1 from "../../../public/servicesBg1.png";
 import servicesBg2 from "../../../public/servicesBg2.png";
@@ -37,9 +36,9 @@ const Page = () => {
             Our Efficiant Services
           </div>
           <div className="lg:text-md text-sm text-center lg:w-[50vw] w-[80vw]  mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            necessitatibus sit in quos, odit quod consequatur sapiente earum
-            rerum aperiam.
+            We provide a wide range of services for all your appliances. Our
+            skilled technicians ensure your devices run smoothly, focusing on
+            professionalism and customer satisfaction.
           </div>
 
           <div className=" grid w-screen lg:px-56 lg:mt-4 lg:grid-cols-3 grid-cols-1">

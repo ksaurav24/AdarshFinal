@@ -6,9 +6,7 @@ import useWeb3Forms from "@web3forms/react";
 import React from "react";
 import { Saira } from "next/font/google";
 import { AnimatePresence, motion } from "framer-motion";
-export const metadata = {
-  title: "Contact Us | Adarsh Refrigeration & Air Conditioners",
-};
+
 const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
