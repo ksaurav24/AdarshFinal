@@ -81,9 +81,8 @@ const Page = () => {
           Get In Touch With Us
         </h1>
         <p className="lg:w-[50vw] mt-4 w-[90vw]  text-center lg:text-lg text-sm font-light text-zinc-50">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-          deserunt laudantium officiis dolor maiores nulla sit? Voluptate vero
-          saepe illo.
+          We are here to help you. If you have any queries or need any help or
+          assistance.
         </p>
         <form
           onSubmit={handleSubmit(onSubmit)}
