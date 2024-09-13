@@ -3,7 +3,7 @@ import { Saira } from "next/font/google";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import aboutBg from "../../../public/about-bg.jpg";
+import aboutBg from "../../../public/about-bg.png";
 import { about } from "../../data/data.jsx";
 const saira = Saira({
   subsets: ["latin"],
