@@ -42,7 +42,7 @@ const Category = ({ category, image }) => {
       </div>
       <div className="p-3 rounded-lg bg-zinc-100 w-full  ">
         <h1 className="text-md text-zinc-800 text-center font-semibold ">
-          {category.category} Spare Parts
+          {category} Spare Parts
         </h1>
       </div>
     </motion.div>
