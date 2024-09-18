@@ -18,11 +18,6 @@ const Product = ({ product }) => {
         className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl"
       >
         <div className="w-full p-6 h-[200px] overflow-hidden relative">
-          <Image
-            src={product.image}
-            alt={`${product.title}_Image`}
-            className="h-[90%] mx-auto object-contain hidden"
-          />
           <AnimatePresence>
             {showOverlay && (
               <motion.div
@@ -51,6 +46,11 @@ const Product = ({ product }) => {
               </motion.div>
             )}
           </AnimatePresence>
+          <Image
+            src={product.image}
+            alt={`${product.title}_Image`}
+            className="h-[90%] mx-auto object-contain hidden"
+          />
         </div>
         <div className="p-4 flex flex-col rounded-lg bg-zinc-100 w-full h-[156px] ">
           <h3 className="text-sm font-regular h-[126px]">{product.title}</h3>
