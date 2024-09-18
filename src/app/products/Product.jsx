@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Product = ({ product }) => {
   const [showOverlay, setShowOverlay] = useState(false);
   return (
-    <a>
+    <a {...(product.link && { href: product.link })}>
       <div
         onClick={() => {
           setShowOverlay(!showOverlay);
@@ -18,7 +18,7 @@ const Product = ({ product }) => {
             {showOverlay && (
               <motion.div
                 initial={{ opacity: 0 }}
-                {...(product.link && { animate: { opacity: 1 } })}
+                {...(!product.link && { animate: { opacity: 1 } })}
                 exit={{ opacity: 0 }}
                 className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20"
               >
@@ -27,7 +27,7 @@ const Product = ({ product }) => {
                 </h3>
                 <a
                   href={`https://wa.me/+919811391053?text=I+want+to+buy+this+product+${encodeURIComponent(
-                    product.title
+                    `${product.title}`
                   )}`}
                   className=" px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50"
                 >
