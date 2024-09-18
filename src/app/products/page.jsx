@@ -4,9 +4,7 @@ import { products } from "../../data/data";
 import { Saira } from "next/font/google";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-export const metadata = {
-  title: "Products | Adarsh Refrigeration & Air Conditioners",
-};
+
 const saira = Saira({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
