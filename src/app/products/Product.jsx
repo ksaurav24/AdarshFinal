@@ -29,13 +29,13 @@ const Product = ({ product }) => {
                 initial={{ opacity: 0 }}
                 {...(product.link && { animate: { opacity: 1 } })}
                 exit={{ opacity: 0 }}
-                className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20 "
+                className="absolute flex z-50 flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20 "
               >
                 <h3 className="px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50">
                   {product.link ? "Buy Now" : "Contact Us for Price"}
                 </h3>
                 <a
-                  href={`https://wa.me/+919811391053/text=I+want+to+buy+this+product+${encodeURIComponent(
+                  href={`https://wa.me/+919811391053/text=I+want+to+buy+this+product+${encodeURI(
                     product.title
                   )}`}
                   className=" px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50"
