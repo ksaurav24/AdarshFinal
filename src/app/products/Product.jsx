@@ -3,11 +3,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Product = ({ product, idx }) => {
+const Product = ({ product }) => {
   const [showOverlay, setShowOverlay] = useState(false);
   return (
     <a
-      key={idx}
       {...(product.link && {
         href: product.link,
       })}

@@ -28,7 +28,7 @@ const Page = () => {
         className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
       >
         {products.Fridge.map((product, idx) => {
-          return <Product product={product} idx={idx} />;
+          return <Product product={product} key={idx} />;
         })}
       </div>
       <h3
@@ -41,7 +41,7 @@ const Page = () => {
         className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
       >
         {products.AC.map((product, idx) => {
-          return <Product product={product} idx={idx} />;
+          return <Product product={product} key={idx} />;
         })}
       </div>
       <h3
@@ -54,7 +54,7 @@ const Page = () => {
         className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
       >
         {products.Microwave.map((product, idx) => {
-          return <Product product={product} idx={idx} />;
+          return <Product product={product} key={idx} />;
         })}
       </div>
       <h3
@@ -67,7 +67,7 @@ const Page = () => {
         className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
       >
         {products.Washing_Machine.map((product, idx) => {
-          return <Product product={product} idx={idx} />;
+          return <Product product={product} key={idx} />;
         })}
       </div>
       <h3
@@ -80,7 +80,7 @@ const Page = () => {
         className="grid lg:grid-cols-4 grid-cols-1 mx-auto gap-6 mt-4"
       >
         {products.RO.map((product, idx) => {
-          return <Product product={product} idx={idx} />;
+          return <Product product={product} key={idx} />;
         })}
       </div>
     </div>
