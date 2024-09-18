@@ -24,22 +24,22 @@ const Product = ({ product }) => {
                 initial={{ opacity: 0 }}
                 {...(product.link && { animate: { opacity: 1 } })}
                 exit={{ opacity: 0 }}
-                className="absolute flex z-50 flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20 "
+                className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20"
               >
-                <h3 className="px-4 z-50 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50">
+                <h3 className="px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50">
                   {product.link ? "Buy Now" : "Contact Us for Price"}
                 </h3>
                 <a
                   href={`https://wa.me/+919811391053?text=I+want+to+buy+this+product+${encodeURIComponent(
                     product.title
                   )}`}
-                  className=" px-4 py-2 z-50 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50"
+                  className=" px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50"
                 >
                   Whatsapp Us
                 </a>
                 <a
                   href={`tel:+919811391053`}
-                  className="px-3 z-50 py-1 rounded-md text-lg font-medium text-center bg-zinc-50 text-zinc-950"
+                  className="px-3 py-1 rounded-md text-lg font-medium text-center bg-zinc-50 text-zinc-950"
                 >
                   Call Us
                 </a>
@@ -49,7 +49,7 @@ const Product = ({ product }) => {
           <Image
             src={product.image}
             alt={`${product.title}_Image`}
-            className="h-[90%] mx-auto object-contain hidden"
+            className="h-[90%] mx-auto object-contain"
           />
         </div>
         <div className="p-4 flex flex-col rounded-lg bg-zinc-100 w-full h-[156px] ">
