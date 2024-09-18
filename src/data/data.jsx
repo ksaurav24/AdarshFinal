@@ -132,7 +132,7 @@ const products = {
       image:
         "https://a.media-amazon.com/images/I/41XcQ0+P9bL._SX300_SY300_.jpg",
       price: "₹390",
-      redirectToAmazon: false,
+      redirectToAmazon: true,
     },
     {
       title:
@@ -140,7 +140,7 @@ const products = {
       link: "https://www.amazon.in/dp/B0DCS737SB?ref=myi_title_dp",
       image:
         "https://a.media-amazon.com/images/I/315COsrq4YL._SX300_SY300_QL70_FMwebp_.jpg",
-      redirectToAmazon: false,
+      redirectToAmazon: true,
 
       price: "₹599",
     },
@@ -148,7 +148,7 @@ const products = {
       title:
         "AHC Air Conditioner Outdoor Ac Stand for 1 Ton,1.5 Ton, 2 Ton AC Stand/Heavy Duty Air Conditioner Outdoor Unit Wall Mounting Bracket",
       link: "https://www.amazon.in/dp/B0DCC6C2D3?ref=myi_title_dp",
-      redirectToAmazon: false,
+      redirectToAmazon: true,
 
       image:
         "https://a.media-amazon.com/images/I/41hgeF5QQqL._SX300_SY300_QL70_FMwebp_.jpg",
