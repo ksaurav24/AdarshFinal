@@ -20,9 +20,9 @@ const Product = ({ product }) => {
                 initial={{ opacity: 0 }}
                 {...(!product.link && { animate: { opacity: 1 } })}
                 exit={{ opacity: 0 }}
-                className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20"
+                className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full rounded-lg h-full bg-zinc-800/40"
               >
-                <h3 className="px-2 py-2 rounded-md text-lg font-medium text-center  text-zinc-950">
+                <h3 className="px-2 py-2 rounded-md text-xl font-medium text-center  text-zinc-50">
                   {product.link ? "Buy Now" : "Contact Us for Price"}
                 </h3>
                 <a
