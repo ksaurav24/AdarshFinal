@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { products } from "../../data/data";
 import { Saira } from "next/font/google";
 import Image from "next/image";
@@ -11,7 +11,7 @@ const saira = Saira({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 const Page = () => {
-  const [showOverlay, setShowOverlay] = React.useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
 
   return (
     <div id="products" className="w-screen py-12 bg-white flex flex-col ">
@@ -33,14 +33,16 @@ const Page = () => {
           return (
             <a
               key={idx}
-              href={
-                product.link ||
-                `https://wa.me/+919811391053/text=I+want+to+buy+this+product+${encodeURIComponent(
-                  product.title
-                )}`
-              }
+              {...(product.link && {
+                href: product.link,
+              })}
             >
-              <div className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl">
+              <div
+                onClick={() => {
+                  setShowOverlay(!showOverlay);
+                }}
+                className="lg:w-[22vw] w-[80vw] rounded-lg hover:border-zinc-500 hover:-translate-y-2 transition-all duration-300 ease-in-out border-[2px] border-transparent h-[360px] bg-white shadow-xl"
+              >
                 <div className="w-full p-6 h-[200px] overflow-hidden relative">
                   <Image
                     src={product.image}
