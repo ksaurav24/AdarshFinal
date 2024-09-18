@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { products } from "../../data/data";
 import { Saira } from "next/font/google";
