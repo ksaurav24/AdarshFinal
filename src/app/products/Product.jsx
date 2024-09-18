@@ -6,11 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Product = ({ product }) => {
   const [showOverlay, setShowOverlay] = useState(false);
   return (
-    <a
-      {...(product.link && {
-        href: product.link,
-      })}
-    >
+    <a>
       <div
         onClick={() => {
           setShowOverlay(!showOverlay);
