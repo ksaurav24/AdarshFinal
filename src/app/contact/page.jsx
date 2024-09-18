@@ -86,7 +86,7 @@ const Page = () => {
         </p>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="contactForm  font-medium"
+          className="contactForm font-medium"
         >
           <div className="flex lg:w-[70vw] lg:mt-8 mt-2 flex-col gap-4 items-center justify-center">
             <div className="flex flex-col px-12 lg:flex-row lg:gap-10 gap-2">

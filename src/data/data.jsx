@@ -188,7 +188,7 @@ const products = {
     {
       title:
         "WLG Original Semi Automatic Washing Machine Inlet Water Flexible Hose Pipe Pack 2 And 3 Miters (2 Meter)",
-      link: "https://www.amazon.in/LG-Original-Washing-Machine-Flexible/dp/B09Q66JBRT/ref=sr_1_5_mod_primary_new?crid=3UQ08IPOHI316&dib=eyJ2IjoiMSJ9.qeWNHswZjvg07frMim0ameUZ5Ms94D2HsA0eWVYjk879y78Pu0HBtqZXrAF-koU26RNvSk5q07FGbQFUWYcb9W_ToMUQYTiokw8JRycSnHwaW7WxcVqxAyHzt3GnPYBvnCA6_vbrpFdVSm43IA0QlG4fPxMAWgUNNvnCUxcXWLGe6tOGHCKoIlNzbVPnCCR8pk5rQHc0nlYxVUA-Yq2a_eUQNBraVoVGCDrzn9QeVXw.ikqoEHPNdUnvD_UD1Jaa9UWUlkBrojoWFWoqdD6ADcM&dib_tag=se&keywords=water%2Binlet%2Bpipe&qid=1725368365&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=WATER%2BINLET%2BPIPE%2Caps%2C215&sr=8-5&th=1",
+      link: "",
       price: "₹204",
       image:
         "https://a.media-amazon.com/images/I/31YlQwqIyZS._SY300_SX300_QL70_FMwebp_.jpg",
@@ -196,7 +196,7 @@ const products = {
     {
       title:
         "LG Original 1.5 Meter Top load/Semi Load Washing Machine Outlet Drain Waste Water Inlet Hose Flexible Hose Pipe (Pack Of 1) (1.5)",
-      link: "https://www.amazon.in/LG-Original-Washing-Machine-Flexible/dp/B09Q677YMM/ref=pd_bxgy_d_sccl_1/258-5528887-6258165?pd_rd_w=chpqk&content-id=amzn1.sym.f6230d8b-7bfa-4eba-a1aa-9608b9987115&pf_rd_p=f6230d8b-7bfa-4eba-a1aa-9608b9987115&pf_rd_r=AEKWXJXJCSZAMKX84R8F&pd_rd_wg=G9G4y&pd_rd_r=fe517864-ac5a-4c10-ac64-c79fd8418838&pd_rd_i=B09Q677YMM&th=1",
+      link: "",
       price: "₹250",
       image:
         "https://a.media-amazon.com/images/I/517SA6iDbHL._SX300_SY300_QL70_FMwebp_.jpg",
@@ -238,7 +238,7 @@ const products = {
     {
       title:
         "Aqua Omega Plus Domestic Water Purifier (RO+ LED UV+ ORC COPPER+ HIGH TDS MEMBRANE+ TDS CONTROL) Best For Home/Office Purpose, Automatic | 20 LPH | 12 Liter Storage (Aqua Grand Plus)",
-      link: "https://www.amazon.in/Domestic-Purifier-MEMBRANE-CONTROLAutomatic/dp/B0D6WWV9YH/ref=sr_1_3?crid=G3G8981BCD82&dib=eyJ2IjoiMSJ9.mIwmN1iEfCmKETQkRag7VVFr1XJRspiSzCi1XBneoyQxl2doxNzXPOMVYRQyR0tLWzykA9HRqU_Iq8a6gJFKkO40OKY50YiBFhiR3KA96P6GNW37oRUM2iKgk2loPqOtsDqeuN0EJs36Tq7M8hfNt2bdNGMIFGrG9d9mtx1m4mmacjmyDb37BaZ74j6FQuDEb2iwl6aGO3HnCAM_lA1I5b_XqH_NvasEC6taSNkib3g.Ju_z8x8R0DazpzBGng7V9jzoY4vFnVsoWJ3NMM8r3Nc&dib_tag=se&keywords=OMEGA+RO&qid=1724663112&sprefix=omega+ro%2Caps%2C251&sr=8-3",
+      link: "",
       price: "₹4,950",
       image:
         "https://a.media-amazon.com/images/I/41CMpJKl0vL._SX342_SY445_QL70_FMwebp_.jpg",
@@ -395,7 +395,7 @@ const products = {
     {
       title:
         "AHC Bottle Shelf For Fridge Compatible With Whirlpool Single Door Refrigerator Bottle Rack Holder Color Clear Pack Of 1 Part Code W10418661",
-      link: "https://www.amazon.in/dp/B0DCBVVWQW",
+      link: "",
       price: "₹349",
       image:
         "https://a.media-amazon.com/images/I/218DGd+SADL._SX300_SY300_.jpg",
