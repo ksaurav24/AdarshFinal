@@ -22,7 +22,7 @@ const Product = ({ product }) => {
                 exit={{ opacity: 0 }}
                 className="absolute flex flex-col justify-center items-center gap-2 top-0 left-0 w-full h-full bg-zinc-800/20"
               >
-                <h3 className="px-4 py-2 rounded-md text-lg font-medium text-center bg-zinc-950 text-zinc-50">
+                <h3 className="px-4 py-2 rounded-md text-lg font-medium text-center  text-zinc-950">
                   {product.link ? "Buy Now" : "Contact Us for Price"}
                 </h3>
                 <a
