@@ -21,7 +21,7 @@ const Product = ({ product }) => {
           <Image
             src={product.image}
             alt={`${product.title}_Image`}
-            className="h-[90%] mx-auto object-contain"
+            className="h-[90%] mx-auto object-contain hidden"
           />
           <AnimatePresence>
             {showOverlay && (
