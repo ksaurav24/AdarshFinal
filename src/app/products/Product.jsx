@@ -49,7 +49,7 @@ const Product = ({ product }) => {
           <Image
             src={product.image}
             alt={`${product.title}_Image`}
-            className="h-[90%] mx-auto object-contain"
+            className="h-[90%] -z-10 mx-auto object-contain"
           />
         </div>
         <div className="p-4 flex flex-col rounded-lg bg-zinc-100 w-full h-[156px] ">
